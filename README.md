@@ -32,6 +32,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 ## Knowledge, Skills and Behaviours
 
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
+|------------|-----------------|-----------------|--------------------------|-------------|---------------|
 | K1 | Continuous Integration - the benefits of frequent merging of code, the creation of build artifacts and ensuring all tests pass, with automation throughout - including common tooling. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |  | 10/01/2022 | |
 | K7 | General purpose programming and infrastructure-as-code. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |  | 10/01/2022 | |
 | K13 | Automation techniques, such as scripting and use of APIs. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |  | 10/01/2022 | |
