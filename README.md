@@ -40,7 +40,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 ## Knowledge, Skills and Behaviours
 
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
-|------------|-----------------|-----------------|--------------------------|-------------|---------------|
+|:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
 | K1 | Continuous Integration - the benefits of frequent merging of code, the creation of build artifacts and ensuring all tests pass, with automation throughout - including common tooling. | 1 | I know to use GitHub actions to implement a CI/CD pipeline and have it run tests to make sure that the code I am merging isn't introducing breaking changes, and to have this run on either a push to the required branch or when a pull request has been raised to merge the latest code into the main branch of the repository. | 10/01/2022 | |
 | K7 | General purpose programming and infrastructure-as-code. |  1 & 2 | For both these tickets I relied heavily on Terraform for the infrastructure-as-code(IAC) and used Python for the AWS Lambda and Golang for testing the IAC. | 10/01/2022 | |
 | K13 | Automation techniques, such as scripting and use of APIs. | 1 | I know how to use scripts to automate steps in a pipeline and when to implement automated testing and how to use software developer kits to make use of cloud provider API's | 10/01/2022 | |
