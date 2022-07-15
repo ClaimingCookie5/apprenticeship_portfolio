@@ -7,13 +7,21 @@
   * [About Credera](#about-credera)
 * [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
 * [Table of Tickets](#table-of-tickets)
-* [Ticket 1](#ticket-1)
-  * [Project Background](#project-background)
-  * [Ticket Background](#ticket-background)
-  * [Learning and Research](#learning-and-research)
-  * [Completing the Ticket](#completing-the-ticket)
-  * [Problems and Solutions](#problems-and-solutions)
-  * [Conclusion](#conclusion)
+* [Ticket 1](#ticket-1-title)
+  * [Project Background](#pticket-1-project-background)
+  * [Ticket Background](#ticket-1-ticket-background)
+  * [Learning and Research](#ticket-1-learning-and-research)
+  * [Completing the Ticket](#ticket-1-completing-the-ticket)
+  * [Problems and Solutions](#ticket-1-problems-and-solutions)
+  * [Conclusion](#ticket-1-conclusion)
+* [Ticket 2](#ticket-2-title)
+  * [Project Background](#pticket-2-project-background)
+  * [Ticket Background](#ticket-2-ticket-background)
+  * [Learning and Research](#ticket-2-learning-and-research)
+  * [Completing the Ticket](#ticket-2-completing-the-ticket)
+  * [Problems and Solutions](#ticket-2-problems-and-solutions)
+  * [Conclusion](#ticket-2-conclusion)
+
 
 ## Introduction
 
@@ -39,30 +47,43 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | K14 | Test Driven Development and the Test Pyramid. How the practice is underpinned by unit testing, the importance of automation, appropriate use of test doubles and mocking strategies, reducing a reliance on end-to-end testing. | 2 | I understand the importance of TDD and how you can use this approach to build what is required, by following the TDD process you reduce, *generally*, the amount of code you're writing and making sure you stay in scope of the task at hand by trying to get the test to pass with the simplest implementation and building on top of that. | 14/02/2022 | |
 | K17 | What an API is, how to find them and interpret the accompanying documentation. | 1 | An API is "application programme interface". It is a pre-existing block of code that allows to pieces of code to talk to each other, depending on your needs you can make your own API or make use of the million different API's out there. No point in reinventing the wheel. | 10/01/2022 | |
 | K20 | Pair/mob programming techniques and when to use each technique. | 1 | I understand what pair and mobbing techniques are. At Credera I use them everyday to solve the problem at hand and understand when to employ these techniques. It's nice to be able to bounce ideas off of people, learn from others and teach at the same time. And you know what they say, *Two heads are better than one*. | 10/01/2022 | |
-| S12 | Automate tasks where it introduces improvements to the efficiency of business processes and reduces waste, considering the effort and cost of automation. | 1 | I implemented a solution that would automatically tag AWS resources upon creation saving time and   | 10/01/2022 | |
-| S13 | Engage in productive pair/mob programming. | 1 |  | 10/01/2022 | |
-| S14 | Write tests and follow Test Driven Development discipline in various different contexts. | 2 | | | |
+| S12 | Automate tasks where it introduces improvements to the efficiency of business processes and reduces waste, considering the effort and cost of automation. | 1 | I implemented a solution that would automatically tag AWS resources upon creation, saving time and money by pinpointing who created the resource and allowing you to calculate the cost for the resource that have been deployed. | 10/01/2022 | |
+| S13 | Engage in productive pair/mob programming. | 1 | If at any point I hit a blocker, I would be able to pair with someone to bounce ideas off of.  | 10/01/2022 | |
+| S14 | Write tests and follow Test Driven Development discipline in various different contexts. | 2 | Writing unit test for IAC isn't really something that people do | | |
 | S17 | Code in a general purpose programming language. | 1 |  | 10/01/2022 | |
-| S18 | Specify cloud infrastructure in an infrastructure-as-code domain-specific language. | 1 | | 10/01/2022 | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | Every task I do | | 10/01/2022 | |
-
+| S18 | Specify cloud infrastructure in an infrastructure-as-code domain-specific language. | 1 | I used Terraform to write up the IAC for AWS | 10/01/2022 | |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | 1 & 2 | The toughest part about these tickets was that it was mostly alone, about 80% solo work and 20% pairing. Nobody likes getting blocked, but when I did I really enjoyed having someone come in and share their knowledge with me. I really enjoyed raising PRs and having somebody tell me where I can make improvements and what I've done well, because, it gives me new goals work towards and how I can be a better DevOps engineer. | 10/01/2022 | |
 
 ## Table of Tickets
 | Ticket number | Ticket |
-|---|_-------------------|
+|---|--------------------|
 | 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 | 2 | ![Terratest ticket](./images/terratest_ticket.png) |
 
-## Ticket 1
+## Ticket 1 {#ticket-1-title}
 
-### Project Background
+### Project Background {#ticket-1-project-background}
 
-### Ticket Background
+### Ticket Background {#ticket-1-ticket-background}
 
-### Learning and Research
+### Learning and Research {#ticket-1-learning-and-research}
 
-### Completing the Ticket
+### Completing the Ticket {#ticket-1-completing-the-ticket}
 
-### Problems and Solutions
+### Problems and Solutions {#ticket-1-problems-and-solutions}
 
-### Conclusion
+### Conclusion {#ticket-1-conclusion}
+
+## Ticket 2 {#ticket-2-title}
+
+### Project Background {#ticket-2-project-background}
+
+### Ticket Background {#ticket-2-ticket-background}
+
+### Learning and Research {#ticket-2-learning-and-research}
+
+### Completing the Ticket {#ticket-2-completing-the-ticket}
+
+### Problems and Solutions {#ticket-2-problems-and-solutions}
+
+### Conclusion {#ticket-2-conclusion}
