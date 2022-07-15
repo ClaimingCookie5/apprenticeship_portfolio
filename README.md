@@ -60,7 +60,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 | 2 | ![Terratest ticket](./images/terratest_ticket.png) |
 
-## Ticket 1 {#ticket-1-title}
+## Ticket 1 {#ticket-1}
 
 ### Project Background {#ticket-1-project-background}
 
@@ -74,7 +74,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 ### Conclusion {#ticket-1-conclusion}
 
-## Ticket 2 {#ticket-2-title}
+## Ticket 2 {#ticket-2}
 
 ### Project Background {#ticket-2-project-background}
 
