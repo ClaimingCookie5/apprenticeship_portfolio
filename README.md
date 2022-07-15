@@ -8,19 +8,19 @@
 * [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
 * [Table of Tickets](#table-of-tickets)
 * [Ticket 1](#ticket-1)
-  * [Project Background](#ticket-1-project-background)
-  * [Ticket Background](#ticket-1-ticket-background)
-  * [Learning and Research](#ticket-1-learning-and-research)
-  * [Completing the Ticket](#ticket-1-completing-the-ticket)
-  * [Problems and Solutions](#ticket-1-problems-and-solutions)
-  * [Conclusion](#ticket-1-conclusion)
+  * [Project Background](#project-background-1)
+  * [Ticket Background](#ticket-background-1)
+  * [Learning and Research](#learning-and-research-1)
+  * [Completing the Ticket](#completing-the-ticket-1)
+  * [Problems and Solutions](#problems-and-solutions-1)
+  * [Conclusion](#conclusion-1)
 * [Ticket 2](#ticket-2)
-  * [Project Background](#ticket-2-project-background)
-  * [Ticket Background](#ticket-2-ticket-background)
-  * [Learning and Research](#ticket-2-learning-and-research)
-  * [Completing the Ticket](#ticket-2-completing-the-ticket)
-  * [Problems and Solutions](#ticket-2-problems-and-solutions)
-  * [Conclusion](#ticket-2-conclusion)
+  * [Project Background](#project-background-2)
+  * [Ticket Background](#ticket-background-2)
+  * [Learning and Research](#learning-and-research-2)
+  * [Completing the Ticket](#completing-the-ticket-2)
+  * [Problems and Solutions](#problems-and-solutions-2)
+  * [Conclusion](#conclusion-2)
 
 
 ## Introduction
@@ -55,35 +55,36 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | 1 & 2 | The toughest part about these tickets was that it was mostly alone, about 80% solo work and 20% pairing. Nobody likes getting blocked, but when I did I really enjoyed having someone come in and share their knowledge with me. I really enjoyed raising PRs and having somebody tell me where I can make improvements and what I've done well, because, it gives me new goals work towards and how I can be a better DevOps engineer. | 10/01/2022 | |
 
 ## Table of Tickets
+
 | Ticket number | Ticket |
-|---|--------------------|
+|:-:|--------------------|
 | 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 | 2 | ![Terratest ticket](./images/terratest_ticket.png) |
 
 ## Ticket 1
 
-### Project Background {#ticket-1-project-background}
+### Project Background
 
-### Ticket Background {#ticket-1-ticket-background}
+### Ticket Background
 
-### Learning and Research {#ticket-1-learning-and-research}
+### Learning and Research
 
-### Completing the Ticket {#ticket-1-completing-the-ticket}
+### Completing the Ticket
 
-### Problems and Solutions {#ticket-1-problems-and-solutions}
+### Problems and Solutions
 
-### Conclusion {#ticket-1-conclusion}
+### Conclusion
 
 ## Ticket 2
 
-### Project Background {#ticket-2-project-background}
+### Project Background
 
-### Ticket Background {#ticket-2-ticket-background}
+### Ticket Background
 
-### Learning and Research {#ticket-2-learning-and-research}
+### Learning and Research
 
-### Completing the Ticket {#ticket-2-completing-the-ticket}
+### Completing the Ticket
 
-### Problems and Solutions {#ticket-2-problems-and-solutions}
+### Problems and Solutions
 
-### Conclusion {#ticket-2-conclusion}
+### Conclusion
