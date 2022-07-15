@@ -7,7 +7,7 @@
   * [About Credera](#about-credera)
 * [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
 * [Table of Tickets](#table-of-tickets)
-* [Ticket 1](#ticket-1)
+* [Ticket 1](##ticket-1)
   * [Project Background](#ticket-1-project-background)
   * [Ticket Background](#ticket-1-ticket-background)
   * [Learning and Research](#ticket-1-learning-and-research)
@@ -60,9 +60,9 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 | 2 | ![Terratest ticket](./images/terratest_ticket.png) |
 
-## Ticket 1{#ticket-1}
+## Ticket 1 {#ticket-1}
 
-### Project Background{#ticket-1-project-background}
+### Project Background {#ticket-1-project-background}
 
 ### Ticket Background {#ticket-1-ticket-background}
 
