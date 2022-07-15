@@ -34,7 +34,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
 |------------|-----------------|-----------------|--------------------------|-------------|---------------|
 | K1 | Continuous Integration - the benefits of frequent merging of code, the creation of build artifacts and ensuring all tests pass, with automation throughout - including common tooling. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) | I know to use GitHub actions to implement a CI/CD pipeline and have it run tests to make sure that the code I am merging isn't introducing breaking changes, and to have this run on either a push to the required branch or when a pull request has been raised to merge the latest code into the main branch of the repository. | 10/01/2022 | |
-| K7 | General purpose programming and infrastructure-as-code. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) ![Terratest ticket](./images/terratest_ticket.png) | For both these tickets I relied heavily on Terraform for the infrastructure-as-code(IAC) and used Python for the AWS Lambda and Golang for testing the IAC. | 10/01/2022 | |
+| K7 | General purpose programming and infrastructure-as-code. |  1 & 2 | For both these tickets I relied heavily on Terraform for the infrastructure-as-code(IAC) and used Python for the AWS Lambda and Golang for testing the IAC. | 10/01/2022 | |
 | K13 | Automation techniques, such as scripting and use of APIs. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) | I know how to use scripts to automate steps in a pipeline and when to implement automated testing and how to use software developer kits to make use of cloud provider API's | 10/01/2022 | |
 | K14 | Test Driven Development and the Test Pyramid. How the practice is underpinned by unit testing, the importance of automation, appropriate use of test doubles and mocking strategies, reducing a reliance on end-to-end testing. | ![Terratest ticket](./images/terratest_ticket.png) | I understand the importance of TDD and how you can use this approach to build what is required, by following the TDD process you reduce, *generally*, the amount of code you're writing and making sure you stay in scope of the task at hand by trying to get the test to pass with the simplest implementation and building on top of that. | 14/02/2022 | |
 | K17 | What an API is, how to find them and interpret the accompanying documentation. | ![Auto tagging ticket](./images/auto_tagging_ticket.png) | An API is "application programme interface". It is a pre-existing block of code that allows to pieces of code to talk to each other, depending on your needs you can make your own API or make use of the million different API's out there. No point in reinventing the wheel. | 10/01/2022 | |
@@ -48,7 +48,10 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 
 ## Table of Tickets
-
+| Ticket number | Ticket |
+|---| -------------------|
+| 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
+| 2 | ![Terratest ticket](./images/terratest_ticket.png) |
 ## Ticket 1
 
 ### Project Background
