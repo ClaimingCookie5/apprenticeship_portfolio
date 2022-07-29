@@ -83,7 +83,14 @@ In the beginning I had no clue if this was possible, so I spent a lot of time go
 
 With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple. Once I had evidence that creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
 Using the AWS SDK for python, *Boto3*, I could easily create an S3 client, scrape the logs for the bucket name, then provide the S3 client the bucket name, and then with an S3 client built-in function provide the bucket the required tags.
-![lambda handler](./images/lambda-handler.png) ![bucket tagging](./images/bucket-tagging.png)
+
+#### Lambda Handler
+
+![lambda handler](./images/lambda-handler.png)
+
+#### Tagging function
+
+![bucket tagging](./images/bucket-tagging.png)
 
 ### Problems and Solutions
 
