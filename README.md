@@ -77,11 +77,19 @@ I had done a weeks worth of Terraform in the training before going onto placemen
 
 ### Completing the Ticket
 
+Majority of this task was solo work, a couple of times I got stuck on something to do with Terraform or the way the AWS environment I was deploying to was configured.
+
 In the beginning I had no clue if this was possible, so I spent a lot of time googling. I found a video of someone who had implemented something similar through the UI. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*
 
 ![Autotagger Diagram](./images/Autotagger-Diagram.png)
 
-With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple. Once I had evidence that creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
+With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple.
+
+#### Trigger Evidence
+
+![trigger evidence](./images/creation-event.png)
+
+Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
 Using the AWS SDK for python, *Boto3*, I could easily create an S3 client, scrape the logs for the bucket name, then provide the S3 client the bucket name, and then with an S3 client built-in function provide the bucket the required tags.
 
 #### Lambda Handler
@@ -92,7 +100,33 @@ Using the AWS SDK for python, *Boto3*, I could easily create an S3 client, scrap
 
 ![bucket tagging](./images/bucket-tagging.png)
 
+Once this has been deployed, and you create an S3 bucket, when you check your newly created bucket you'll see that there are now tags attached to it:
+![tagged bucket](./images/tagged-bucket.png)
+
+Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed.
+
 ### Problems and Solutions
+
+One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to add tags to the bucket, so it would overwrite any tags it already had. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
+
+Another issue I faced when expanding this project to incorporate more than just S3 buckets was, not all AWS resource take tags in the same way, which made this frustrating when I wanted to follow best practices and not repeat code, eg. S3 buckets, the way that it takes tags is formatted like so:
+
+```python
+'TagSet': [
+  {'Key': 'CreatedBy', 'Value': user},
+  {'Key': 'CreatedOn', 'Value': current_date}
+]
+```
+
+but if I tried to do the same with an EKS cluster, all it would take is the following:
+
+```python
+{
+  'CreatedBy': user,
+  'CreatedOn': current_date
+}
+```
+
 
 ### Conclusion
 
