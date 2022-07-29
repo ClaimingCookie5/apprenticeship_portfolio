@@ -22,7 +22,6 @@
   * [Problems and Solutions](#problems-and-solutions-1)
   * [Conclusion](#conclusion-1)
 
-
 ## Introduction
 
 ### About Me
@@ -65,11 +64,26 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 ### Project Background
 
+When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client. While on the bench, I didn't have the opportunity to do much as part of a team.
+Every Monday and Wednesday there is a bench stand up where we discuss progress made or blockers on tickets we've been assigned to. You based on your interests, if nothing takes your fancy you will get assigned a ticket based on your experience.
+
 ### Ticket Background
+
+This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned to the ticket, as it was created before I joined. Because I had no idea what I was doing, I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process.
 
 ### Learning and Research
 
+I had done a weeks worth of Terraform in the training before going onto placement, so I had to learn more about Terraform.
+
 ### Completing the Ticket
+
+In the beginning I had no clue if this was possible, so I spent a lot of time googling. I found a video of someone who had implemented something similar through the UI. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*
+
+![Autotagger Diagram](./images/Autotagger-Diagram.png)
+
+With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple. Once I had evidence that creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
+Using the AWS SDK for python, *Boto3*, I could easily create an S3 client, scrape the logs for the bucket name, then provide the S3 client the bucket name, and then with an S3 client built-in function provide the bucket the required tags.
+![lambda handler](./images/lambda-handler.png) ![bucket tagging](./images/bucket-tagging.png)
 
 ### Problems and Solutions
 
