@@ -14,13 +14,6 @@
   * [Completing the Ticket](#completing-the-ticket)
   * [Problems and Solutions](#problems-and-solutions)
   * [Conclusion](#conclusion)
-* [Ticket 2](#ticket-2)
-  * [Project Background](#project-background-1)
-  * [Ticket Background](#ticket-background-1)
-  * [Learning and Research](#learning-and-research-1)
-  * [Completing the Ticket](#completing-the-ticket-1)
-  * [Problems and Solutions](#problems-and-solutions-1)
-  * [Conclusion](#conclusion-1)
 
 ## Introduction
 
