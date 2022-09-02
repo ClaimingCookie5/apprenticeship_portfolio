@@ -36,7 +36,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | **Knowledge** | |
 | K1 | Continuous Integration - the benefits of frequent merging of code, the creation of build artefacts and ensuring all tests pass, with automation throughout - including common tooling. |
 | K2 | The principles of distributed Source Control, including how to exploit the features of the tool, such as branching. |
-| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. |
+| <a id="K3">K3</a> | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. |
 | K4 | The business value of DevOps in terms of Time, Cost, Quality, with an emphasis on building in internal Quality throughout the lifetime of the product. |
 | K5 | A range of modern security tools and techniques - e.g. threat modelling, vulnerability scanning and dependency checking, with a general awareness of penetration testing - in order to deal with threats and attack vectors within code and across the cyber domain. |
 | K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. |
@@ -87,6 +87,22 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. |
 | B3 | Displays a commitment to the mantra 'You build it, you run it', taking ownership of deployed code and being accountable for its continual improvement, learning from experience and taking collective responsibility when things fail. |
 | B4 | Is inclusive, professional and maintains a blameless culture. |
+
+## Releases
+
+| KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
+|:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
+| [K3](#K3) | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | | | | |
+| K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. | | | | |
+| K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
+| K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
+| K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | | | | |
+| K20 | Pair/mob programming techniques and when to use each technique. | | | | |
+| K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
+| K23 | The importance of continual improvement within a blameless culture. | | | | |
+| K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
+| K25 | Maintain an awareness of cloud certification requirements. | | | | |
+
 
 ## Table of Tickets
 
