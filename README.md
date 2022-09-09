@@ -101,6 +101,7 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 ![bucket tagging](./images/bucket-tagging.png)
 
 Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
+
 ![tagged bucket](./images/tagged-bucket.png)
 
 Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda
