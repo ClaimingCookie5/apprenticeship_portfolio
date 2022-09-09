@@ -14,6 +14,7 @@
   * [Completing the Ticket](#completing-the-ticket)
   * [Problems and Solutions](#problems-and-solutions)
   * [Conclusion](#conclusion)
+* [Version Control](#version-control)
 
 ## Introduction
 
@@ -144,3 +145,9 @@ I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
 This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
+
+## Version Control
+
+| Release |
+|---------|
+| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) |
