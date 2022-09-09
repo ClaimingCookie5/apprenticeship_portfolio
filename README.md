@@ -50,7 +50,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | | | | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | | | ![behavioral feedback](./images/behavioral-feedback.png) |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | ![behavioral feedback](./images/behavioral-feedback.png) | | |
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
 | B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
