@@ -104,7 +104,28 @@ Once deployed, create an S3 bucket and check your newly created bucket, you'll s
 
 ![tagged bucket](./images/tagged-bucket.png)
 
-Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda
+Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda making it easy to contribute to and update, eg.
+
+The event rule:
+
+```terraform
+# If I were wanting to tag an EKS instance
+resource "aws_cloudwatch_event_rule" "tag-rule" {
+  name     = "AutoTagBuckets" # Change the name
+  role_arn = aws_iam_role.auto-tagger-role.arn
+
+  event_pattern = <<EOF
+  {
+      "source": ["aws.s3"], # Change s3 to reference eks
+      "detail-type": ["AWS API Call via CloudTrail"],
+      "detail": {
+        "eventSource": ["s3.amazonaws.com"], # Change s3 to reference eks
+        "eventName": ["CreateBucket"] # Change the event name to CreateCluster
+      }
+  }
+  EOF
+}
+```
 
 I chose to use Python in this project for three reasons:
 
