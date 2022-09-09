@@ -27,51 +27,63 @@ With a bunch of free time on my hands, I decided to learn how to do some basic c
 
 ### About Credera
 
-Credera is a consulting firm focused on strategy, innovation, data, and technology. As a part of Omnicom Precision Marketing Group, Credera's approximately 3000 consultants across the globe partner with clients ranging from FTSE 100 companies and public sector giants to emerging industry leaders from strategy to execution to create tangible business results. Credera's deep business acumen and technical expertise, combined with a deep dedication to building trusted relationships, unlock extraordinary business performance for their clients. Its mission is to make an extraordinary impact on its clients, people, and communities.
+Credera is a consulting firm focused on strategy, innovation, data, and technology. As a part of Omnicom Precision Marketing Group, Credera's approximately 3000 consultants across the globe partner with clients ranging from FTSE 100 companies and public sector giants to emerging industry leaders from strategy to execution to create tangible business results. Credera's deep business acumen and technical expertise, combined with a deep dedication to building trusted relationships, unlock extraordinary business performance for their clients. Its mission is to make an extraordinary impact on its clients, people, and communities. Credera has 40 hour work week with 8 of those hours dedicated to personal development, which is heavily encouraged. You can use the 8 hours for taking exams, conferences,  and community projects.
 
 ## Knowledge, Skills and Behaviours
 
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
 |:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
-| K7 | General purpose programming and infrastructure-as-code. | 1 | For this project I relied heavily on Terraform for the infrastructure-as-code(IAC) and used Python for the AWS Lambda. | 10/01/2022 | |
-| K13 | Automation techniques, such as scripting and use of APIs. | 1 | I know how to use scripts to automate steps in a pipeline and when to implement automated testing and how to use software developer kits to make use of cloud provider API's | 10/01/2022 | |
-| K17 | What an API is, how to find them and interpret the accompanying documentation. | 1 | An API is "application programme interface". It is a pre-existing block of code that allows to pieces of code to talk to each other, depending on your needs you can make your own API or make use of the million different API's out there. No point in reinventing the wheel. | 10/01/2022 | |
-| S12 | Automate tasks where it introduces improvements to the efficiency of business processes and reduces waste, considering the effort and cost of automation. | 1 | I implemented a solution that would automatically tag AWS resources upon creation, saving time and money by pinpointing who created the resource and allowing you to calculate the cost for the resource that have been deployed. | 10/01/2022 | |
-| S17 | Code in a general purpose programming language. | 1 | I used Python to implement the logic for the AWS Lambda. | 10/01/2022 | |
-| S18 | Specify cloud infrastructure in an infrastructure-as-code domain-specific language. | 1 | I used Terraform to write up the IAC for AWS | 10/01/2022 | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | 1 | The toughest part about this project was that I was mostly alone, about 95% solo work and 5% pairing. Nobody likes getting blocked, but when I did I really enjoyed having someone come in and share their knowledge with me. I really enjoyed raising PRs and having somebody tell me where I can make improvements and what I've done well, because, it gives me new goals work towards and how I can be a better DevOps engineer. | 10/01/2022 | |
+| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | | | | |
+| K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. | | | | |
+| K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
+| K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
+| K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | 1 | I had to communicate with a wide range of people, mostly technical in nature. I used emails for more serious matters or to coordinate a time/date to demo my product, instant messaging/face-to-face ***(virtual)*** when asking for help, and lots of visuals when demoing. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
+| K20 | Pair/mob programming techniques and when to use each technique. | 1 | Majority of the time when I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
+| K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
+| K23 | The importance of continual improvement within a blameless culture. | | | | |
+| K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
+| K25 | Maintain an awareness of cloud certification requirements. | | | | |
+| S1 | Communicate credibly with technical and non-technical people at all levels, using a range of methods; e.g. ‘Show and Tell’ and ‘Demonstrations’. | 1 | Every Monday and Wednesday I would have a standup to talk through blockers/progress. I have demonstrated to multiple people how the product works, the use cases/benefits of it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
+| S2 | Work within different organisational cultures with both internal and external parties. | | | | |
+| S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
+| S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
+| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" me to the solution. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
+| S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
+| S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | | | | |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | | | |
+| B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
+| B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
 ## Table of Tickets
 
 | Ticket number | Ticket |
 |:-:|--------------------|
-| 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
-| 2 | ![Terratest ticket](./images/terratest_ticket.png) |
+| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 
 ## Ticket 1
 
 ### Project Background
 
-When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client. While on the bench, I didn't have the opportunity to do much as part of a team.
+When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client (external party). While on the bench, I didn't have the opportunity to do much as part of a team.
 Every Monday and Wednesday there is a bench stand up where we discuss progress made or blockers on tickets we've been assigned to. You based on your interests, if nothing takes your fancy you will get assigned a ticket based on your experience.
 
 ### Ticket Background
 
-This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned to the ticket, as it was created before I joined. Because I had no idea what I was doing, I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process.
+This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned the ticket, as it was created before I joined. Because I had no idea what I was doing, I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process.
 
 ### Learning and Research
 
-I had done a weeks worth of Terraform in the training before going onto placement, so I had to learn more about Terraform. I had to deepen my knowledge on AWS.
+I had done a weeks worth of Terraform in the training before going onto placement, so I had to learn more about Terraform. I found a Youtube [video](https://www.youtube.com/watch?v=4zLTZh3bZd0&ab_channel=Tieho-The-Engineer) of someone explaining the process and how to do it manually.
 
 ### Completing the Ticket
 
 Majority of this task was solo work, a couple of times I got stuck on something to do with Terraform or the way the AWS environment I was deploying to was configured.
 
-In the beginning I had no clue if this was possible, so I spent a lot of time googling. I found a video of someone who had implemented something similar through the UI. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*
+In the beginning I had no clue if this was possible, so I spent a lot of time Googling, and a ton of trial and error. I used the Youtube video to see how it would be done manually and then converted it into Terraform. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*.
 
 ![Autotagger Diagram](./images/Autotagger-Diagram.png)
 
-With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple.
+With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log `Hello, World!`.
 
 #### Trigger Evidence
 
@@ -88,10 +100,10 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 
 ![bucket tagging](./images/bucket-tagging.png)
 
-Once this has been deployed, and you create an S3 bucket, when you check your newly created bucket you'll see that there are now tags attached to it:
+Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
 ![tagged bucket](./images/tagged-bucket.png)
 
-Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed.
+Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda
 
 I chose to use Python in this project for three reasons:
 
@@ -100,11 +112,11 @@ I chose to use Python in this project for three reasons:
 * It's quick and easy to pick up
 * It looks cleaner
 
-I used Terraform as the IAC as that's what I had the most familiarity with thanks to Makers and their crash course on DevOps.
+I used Terraform as the IAC as that's what I had the most familiarity with.
 
 ### Problems and Solutions
 
-One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket, so it would overwrite any tags it already had. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
+One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket. On cretaion, S3 bucket would overwrite any tags it was already provided. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
 
 Another issue I faced when expanding this project to incorporate more than just S3 buckets was, not all AWS resource take tags in the same way, which made this frustrating when I wanted to follow best practices and not repeat code, eg. S3 buckets, the accepted tags are formatted like so:
 
@@ -127,5 +139,6 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 ### Conclusion
 
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
-I learned some basic use of Python, deepened my knowledge on Terraform and AWS
+I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
 This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
+I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
