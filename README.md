@@ -89,86 +89,16 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 | Ticket number | Ticket |
 |:-:|--------------------|
-| 1 | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
-
-## Ticket 1
+| | |
 
 ### Project Background
 
-When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client. While on the bench, I didn't have the opportunity to do much as part of a team.
-Every Monday and Wednesday there is a bench stand up where we discuss progress made or blockers on tickets we've been assigned to. You based on your interests, if nothing takes your fancy you will get assigned a ticket based on your experience.
-
 ### Ticket Background
-
-This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned to the ticket, as it was created before I joined. Because I had no idea what I was doing, I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process.
 
 ### Learning and Research
 
-I had done a weeks worth of Terraform in the training before going onto placement, so I had to learn more about Terraform. I had to deepen my knowledge on AWS.
-
 ### Completing the Ticket
-
-Majority of this task was solo work, a couple of times I got stuck on something to do with Terraform or the way the AWS environment I was deploying to was configured.
-
-In the beginning I had no clue if this was possible, so I spent a lot of time googling. I found a video of someone who had implemented something similar through the UI. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*
-
-![Autotagger Diagram](./images/Autotagger-Diagram.png)
-
-With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log something simple.
-
-#### Trigger Evidence
-
-![trigger evidence](./images/creation-event.png)
-
-Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
-Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create an S3 client, scrape the logs for the bucket name, then provide the S3 client the bucket name, and then with an S3 client built-in function provide the bucket the required tags.
-
-#### Lambda Handler
-
-![lambda handler](./images/lambda-handler.png)
-
-#### Tagging function
-
-![bucket tagging](./images/bucket-tagging.png)
-
-Once this has been deployed, and you create an S3 bucket, when you check your newly created bucket you'll see that there are now tags attached to it:
-![tagged bucket](./images/tagged-bucket.png)
-
-Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed.
-
-I chose to use Python in this project for three reasons:
-
-* I hadn't used it before, I wanted to challenge myself
-* It had minimal setup versus Javascript when using the AWS SDK
-* It's quick and easy to pick up
-* It looks cleaner
-
-I used Terraform as the IAC as that's what I had the most familiarity with thanks to Makers and their crash course on DevOps.
 
 ### Problems and Solutions
 
-One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket, so it would overwrite any tags it already had. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
-
-Another issue I faced when expanding this project to incorporate more than just S3 buckets was, not all AWS resource take tags in the same way, which made this frustrating when I wanted to follow best practices and not repeat code, eg. S3 buckets, the accepted tags are formatted like so:
-
-```python
-'TagSet': [
-  {'Key': 'CreatedBy', 'Value': user},
-  {'Key': 'CreatedOn', 'Value': current_date}
-]
-```
-
-but if I tried to do the same with an EKS cluster, all it would accept is the following:
-
-```python
-{
-  'CreatedBy': user,
-  'CreatedOn': current_date
-}
-```
-
 ### Conclusion
-
-I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
-I learned some basic use of Python, deepened my knowledge on Terraform and AWS
-This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
