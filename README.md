@@ -16,6 +16,12 @@
   * [Conclusion](#conclusion)
 * [Version Control](#version-control)
 
+## Version Control
+
+| Release | Date |
+|---------| -----|
+| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
+
 ## Introduction
 
 ### About Me
@@ -40,7 +46,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
 | K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
 | K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | 1 | I had to communicate with a wide range of people, mostly technical in nature. I used emails for more serious matters or to coordinate a time/date to demo my product, instant messaging/face-to-face ***(virtual)*** when asking for help, and lots of visuals when demoing. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
 | K23 | The importance of continual improvement within a blameless culture. | | | | |
 | K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
@@ -49,10 +55,10 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | S2 | Work within different organisational cultures with both internal and external parties. | | | | |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
-| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | | | | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | ![behavioral feedback](./images/behavioral-feedback.png) | | |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | Behavioral feedback ![behavioral feedback](./images/behavioral-feedback.png) | | |
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
 | B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
@@ -145,9 +151,3 @@ I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
 This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
-
-## Version Control
-
-| Release | Date |
-|---------| -----|
-| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
