@@ -23,6 +23,7 @@ My Name is Hotu, and I'm from New Zealand. Before landing a position as an appre
 
 Needing a new challenge I decided to move to Japan and break away from pizza. There I met my Sous Chef who had worked in Michelin starred restaurants. He inspired me to push myself even further and after a year-ish in Japan I decided to go to London and really test my mettle.
 I got a job at a 1 star restaurant which was the hardest work, but also the most gratifying. In 2020, as everyone is aware by now, the pandemic hit. The hospitality industry was devastated by the effects of the pandemic.
+
 With a bunch of free time on my hands, I decided to learn how to do some basic coding through Free Code Camp, Codecademy, and Code wars. Restrictions were easing and I was called back into the kitchen where, I found that I no longer had the passion I once had for cooking. This prompted me to get serious about software development. I joined Makers Academy in July 2021, once finished I applied to a bunch of different jobs, one of which being this DevOps apprenticeship with Credera.
 
 ### About Credera
