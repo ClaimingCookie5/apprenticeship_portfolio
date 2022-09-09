@@ -69,11 +69,11 @@ Every Monday and Wednesday there is a bench stand up where we discuss progress m
 
 ### Ticket Background
 
-This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned the ticket, as it was created before I joined. Because I had no idea what I was doing, I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process.
+This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned the ticket, as the ticket was created before I joined Credera. I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process. The purpose of the ticket is to track resources deployed to AWS for cost and monitoring purposes.
 
 ### Learning and Research
 
-I had done a weeks worth of Terraform in the training before going onto placement, so I had to learn more about Terraform. I found a Youtube [video](https://www.youtube.com/watch?v=4zLTZh3bZd0&ab_channel=Tieho-The-Engineer) of someone explaining the process and how to do it manually.
+I had done a weeks worth of Terraform training before going onto placement. I found a Youtube [video](https://www.youtube.com/watch?v=4zLTZh3bZd0&ab_channel=Tieho-The-Engineer) of someone explaining the process and how to do it manually. Lots of stack overflow.
 
 ### Completing the Ticket
 
