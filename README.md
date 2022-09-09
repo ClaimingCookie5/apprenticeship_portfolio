@@ -148,6 +148,6 @@ I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagg
 
 ## Version Control
 
-| Release |
-|---------|
-| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) |
+| Release | Date |
+|---------| -----|
+| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
