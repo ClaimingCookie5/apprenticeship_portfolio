@@ -2,21 +2,34 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-  * [About me](#about-me)
-  * [About Credera](#about-credera)
-* [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
-* [Table of Tickets](#table-of-tickets)
-* [Ticket 1](#ticket-1)
-  * [Project Background](#project-background)
-  * [Ticket Background](#ticket-background)
-  * [Learning and Research](#learning-and-research)
-  * [Completing the Ticket](#completing-the-ticket)
-  * [Problems and Solutions](#problems-and-solutions)
-  * [Conclusion](#conclusion)
-* [Version Control](#version-control)
+- [Apprenticeship Portfolio](#apprenticeship-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Version Control](#version-control)
+  - [Introduction](#introduction)
+    - [About Me](#about-me)
+    - [About Credera](#about-credera)
+  - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
+  - [Table of Tickets](#table-of-tickets)
+  - [Ticket 1](#ticket-1)
+    - [Project Background](#project-background)
+    - [Ticket Background](#ticket-background)
+    - [Learning and Research](#learning-and-research)
+    - [Completing the Ticket](#completing-the-ticket)
+      - [Trigger Evidence](#trigger-evidence)
+      - [Lambda Handler](#lambda-handler)
+      - [Tagging function](#tagging-function)
+    - [Problems and Solutions](#problems-and-solutions)
+    - [Conclusion](#conclusion)
+
+## Version Control
+
+| Release | Date |
+|---------| -----|
+| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
 
 ## Introduction
+
+[:arrow_up: Table of Contents](#table-of-contents)
 
 ### About Me
 
@@ -33,6 +46,8 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 ## Knowledge, Skills and Behaviours
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
 |:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
 | K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | | | | |
@@ -40,7 +55,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
 | K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
 | K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | 1 | I had to communicate with a wide range of people, mostly technical in nature. I used emails for more serious matters or to coordinate a time/date to demo my product, instant messaging/face-to-face ***(virtual)*** when asking for help, and lots of visuals when demoing. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
 | K23 | The importance of continual improvement within a blameless culture. | | | | |
 | K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
@@ -49,20 +64,26 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | S2 | Work within different organisational cultures with both internal and external parties. | | | | |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
-| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | | | | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | ![behavioral feedback](./images/behavioral-feedback.png) | | |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | Behavioral feedback ![behavioral feedback](./images/behavioral-feedback.png) | | |
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
 | B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 ## Table of Tickets
+
+[:arrow_up: Table of Contents](#table-of-contents)
 
 | Ticket number | Ticket |
 |:-:|--------------------|
 | <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 
 ## Ticket 1
+
+[:arrow_up: Table of Contents](#table-of-contents)
 
 ### Project Background
 
@@ -71,13 +92,19 @@ Every Monday and Wednesday there is a bench stand up where we discuss progress m
 
 ### Ticket Background
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned the ticket, as the ticket was created before I joined Credera. I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process. The purpose of the ticket is to track resources deployed to AWS for cost and monitoring purposes.
 
 ### Learning and Research
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 I had done a weeks worth of Terraform training before going onto placement. I found a Youtube [video](https://www.youtube.com/watch?v=4zLTZh3bZd0&ab_channel=Tieho-The-Engineer) of someone explaining the process and how to do it manually. Lots of stack overflow.
 
 ### Completing the Ticket
+
+[:arrow_up: Table of Contents](#table-of-contents)
 
 Majority of this task was solo work, a couple of times I got stuck on something to do with Terraform or the way the AWS environment I was deploying to was configured.
 
@@ -119,6 +146,8 @@ I used Terraform as the IAC as that's what I had the most familiarity with.
 
 ### Problems and Solutions
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket. On cretaion, S3 bucket would overwrite any tags it was already provided. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
 
 Another issue I faced when expanding this project to incorporate more than just S3 buckets was, not all AWS resource take tags in the same way, which made this frustrating when I wanted to follow best practices and not repeat code, eg. S3 buckets, the accepted tags are formatted like so:
@@ -141,13 +170,9 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 
 ### Conclusion
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
 This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
-
-## Version Control
-
-| Release | Date |
-|---------| -----|
-| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
