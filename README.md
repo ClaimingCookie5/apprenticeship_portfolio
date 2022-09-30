@@ -2,20 +2,27 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-  * [About me](#about-me)
-  * [About Credera](#about-credera)
-* [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
-* [Table of Tickets](#table-of-tickets)
-* [Ticket 1](#ticket-1)
-  * [Project Background](#project-background)
-  * [Ticket Background](#ticket-background)
-  * [Learning and Research](#learning-and-research)
-  * [Completing the Ticket](#completing-the-ticket)
-  * [Problems and Solutions](#problems-and-solutions)
-  * [Conclusion](#conclusion)
+- [Apprenticeship Portfolio](#apprenticeship-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+    - [About Me](#about-me)
+    - [About Credera](#about-credera)
+  - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
+  - [Table of Tickets](#table-of-tickets)
+  - [Ticket 1](#ticket-1)
+    - [Project Background](#project-background)
+    - [Ticket Background](#ticket-background)
+    - [Learning and Research](#learning-and-research)
+    - [Completing the Ticket](#completing-the-ticket)
+      - [Trigger Evidence](#trigger-evidence)
+      - [Lambda Handler](#lambda-handler)
+      - [Tagging function](#tagging-function)
+    - [Problems and Solutions](#problems-and-solutions)
+    - [Conclusion](#conclusion)
 
 ## Introduction
+
+:arrow_up:
 
 ### About Me
 
