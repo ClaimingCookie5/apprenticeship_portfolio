@@ -2,25 +2,32 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-  * [About me](#about-me)
-  * [About Credera](#about-credera)
-* [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
-* [Table of Tickets](#table-of-tickets)
-* [Ticket 1](#ticket-1)
-  * [Project Background](#project-background)
-  * [Ticket Background](#ticket-background)
-  * [Learning and Research](#learning-and-research)
-  * [Completing the Ticket](#completing-the-ticket)
-  * [Problems and Solutions](#problems-and-solutions)
-  * [Conclusion](#conclusion)
-* [Version Control](#version-control)
+- [Apprenticeship Portfolio](#apprenticeship-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Version Control](#version-control)
+  - [Introduction](#introduction)
+    - [About Me](#about-me)
+    - [About Credera](#about-credera)
+  - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
+  - [Table of Tickets](#table-of-tickets)
+  - [Ticket 1](#ticket-1)
+    - [Project Background](#project-background)
+    - [Ticket Background](#ticket-background)
+    - [Learning and Research](#learning-and-research)
+    - [Completing the Ticket](#completing-the-ticket)
+      - [Trigger Evidence](#trigger-evidence)
+      - [Lambda Handler](#lambda-handler)
+      - [Tagging function](#tagging-function)
+    - [Problems and Solutions](#problems-and-solutions)
+    - [Conclusion](#conclusion)
 
 ## Version Control
 
 | Release | Date |
 |---------| -----|
 | [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
+
+[:arrow_top: Table of Contents](#table-of-contents)
 
 ## Introduction
 
@@ -33,9 +40,13 @@ I got a job at a 1 star restaurant which was the hardest work, but also the most
 
 With a bunch of free time on my hands, I decided to learn how to do some basic coding through Free Code Camp, Codecademy, and Code wars. Restrictions were easing and I was called back into the kitchen where, I found that I no longer had the passion I once had for cooking. This prompted me to get serious about software development. I joined Makers Academy in July 2021, once finished I applied to a bunch of different jobs, one of which being this DevOps apprenticeship with Credera.
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ### About Credera
 
 Credera is a consulting firm focused on strategy, innovation, data, and technology. As a part of Omnicom Precision Marketing Group, Credera's approximately 3000 consultants across the globe partner with clients ranging from FTSE 100 companies and public sector giants to emerging industry leaders from strategy to execution to create tangible business results. Credera's deep business acumen and technical expertise, combined with a deep dedication to building trusted relationships, unlock extraordinary business performance for their clients. Its mission is to make an extraordinary impact on its clients, people, and communities. Credera has 40 hour work week with 8 of those hours dedicated to personal development, which is heavily encouraged. You can use the 8 hours for taking exams, conferences,  and community projects.
+
+[:arrow_top: Table of Contents](#table-of-contents)
 
 ## Knowledge, Skills and Behaviours
 
@@ -62,6 +73,8 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
 | B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ## Table of Tickets
 
 | Ticket number | Ticket |
@@ -75,13 +88,19 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client (external party). While on the bench, I didn't have the opportunity to do much as part of a team.
 Every Monday and Wednesday there is a bench stand up where we discuss progress made or blockers on tickets we've been assigned to. You based on your interests, if nothing takes your fancy you will get assigned a ticket based on your experience.
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ### Ticket Background
 
 This is part of an epic and was created as a ticket. I chose the ticket as it looked interesting and I hadn't done anything like this before. I would assume there were meetings before I was assigned the ticket, as the ticket was created before I joined Credera. I broke the ticket down into 2 steps in the beginning, manually test to see if the requirements are even possible, and then automate the process. The purpose of the ticket is to track resources deployed to AWS for cost and monitoring purposes.
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ### Learning and Research
 
 I had done a weeks worth of Terraform training before going onto placement. I found a Youtube [video](https://www.youtube.com/watch?v=4zLTZh3bZd0&ab_channel=Tieho-The-Engineer) of someone explaining the process and how to do it manually. Lots of stack overflow.
+
+[:arrow_top: Table of Contents](#table-of-contents)
 
 ### Completing the Ticket
 
@@ -123,6 +142,8 @@ I chose to use Python in this project for three reasons:
 
 I used Terraform as the IAC as that's what I had the most familiarity with.
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ### Problems and Solutions
 
 One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket. On cretaion, S3 bucket would overwrite any tags it was already provided. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
@@ -145,9 +166,13 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 }
 ```
 
+[:arrow_top: Table of Contents](#table-of-contents)
+
 ### Conclusion
 
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
 This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
+
+[:arrow_top: Table of Contents](#table-of-contents)
