@@ -8,6 +8,7 @@
   - [Introduction](#introduction)
     - [About Me](#about-me)
     - [About Credera](#about-credera)
+    - [My Role](#my-role)
   - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
   - [Table of Tickets](#table-of-tickets)
   - [Ticket 1](#ticket-1)
@@ -19,6 +20,7 @@
       - [Lambda Handler](#lambda-handler)
       - [Tagging function](#tagging-function)
     - [Problems and Solutions](#problems-and-solutions)
+      - [Pairing](#pairing)
     - [Conclusion](#conclusion)
 
 ## Version Control
@@ -44,6 +46,16 @@ With a bunch of free time on my hands, I decided to learn how to do some basic c
 
 Credera is a consulting firm focused on strategy, innovation, data, and technology. As a part of Omnicom Precision Marketing Group, Credera's approximately 3000 consultants across the globe partner with clients ranging from FTSE 100 companies and public sector giants to emerging industry leaders from strategy to execution to create tangible business results. Credera's deep business acumen and technical expertise, combined with a deep dedication to building trusted relationships, unlock extraordinary business performance for their clients. Its mission is to make an extraordinary impact on its clients, people, and communities. Credera has 40 hour work week with 8 of those hours dedicated to personal development, which is heavily encouraged. You can use the 8 hours for taking exams, conferences,  and community projects.
 
+### My Role
+
+There are two positions that an DevOps engineer can fill at Credera, client work and bench work.
+
+Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. A demo is held every two weeks for stake holders to view the progress made.
+
+Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete.
+
+I have done bench work and at the moment I'm on client.
+
 ## Knowledge, Skills and Behaviours
 
 [:arrow_up: Table of Contents](#table-of-contents)
@@ -55,7 +67,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
 | K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
 | K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | 1 | I had to communicate with a wide range of people, mostly technical in nature. I used emails for more serious matters or to coordinate a time/date to demo my product, instant messaging/face-to-face ***(virtual)*** when asking for help, and lots of visuals when demoing. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
 | K23 | The importance of continual improvement within a blameless culture. | | | | |
 | K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
@@ -64,10 +76,10 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 | S2 | Work within different organisational cultures with both internal and external parties. | | | | |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
-| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
+| S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
-| S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | | | | |
-| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | Behavioral feedback ![behavioral feedback](./images/behavioral-feedback.png) | | |
+| S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | 1 | Used diagrams to show a high level overview of how projects work. | | [Autotagger Diagram](./images/Autotagger-Diagram.png) |
+| B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | Behavioral feedback from my appraiser, Stephanie Quinn ![behavioral feedback](./images/behavioral-feedback.png) | | |
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
 | B4 | Is inclusive, professional and maintains a blameless culture. | | | | |
 
@@ -111,12 +123,15 @@ Majority of this task was solo work, a couple of times I got stuck on something 
 In the beginning I had no clue if this was possible, so I spent a lot of time Googling, and a ton of trial and error. I used the Youtube video to see how it would be done manually and then converted it into Terraform. Seeing this I created a diagram of how I thought it was working - *this is the end result, in the beginning it only referenced the creation of S3 buckets*.
 
 ![Autotagger Diagram](./images/Autotagger-Diagram.png)
+*diagram of the proccess for tagging resources in AWS*
+*(S21)*
 
 With this in mind, I converted the diagram into Terraform, adding the missing parts that are auto-generated/easily overlooked as it could be a simple click of a button through the UI. My first step was to create a Lambda that would trigger on a specific event, *eg. a user creates an S3 bucket*, and have the Lambda log `Hello, World!`.
 
 #### Trigger Evidence
 
 ![trigger evidence](./images/creation-event.png)
+*screenshot of the creation event of a bucket*
 
 Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
 Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create an S3 client, scrape the logs for the bucket name, then provide the S3 client the bucket name, and then with an S3 client built-in function provide the bucket the required tags.
@@ -124,23 +139,26 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 #### Lambda Handler
 
 ![lambda handler](./images/lambda-handler.png)
+*screenshot of the Lambda's code*
 
 #### Tagging function
 
 ![bucket tagging](./images/bucket-tagging.png)
+*screenshot of the code used to tag buckets*
 
 Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
 
 ![tagged bucket](./images/tagged-bucket.png)
+*evidence of a bucket having tags applied*
 
 Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda making it easy to contribute to and update.
 
 I chose to use Python in this project for three reasons:
 
-* I hadn't used it before, I wanted to challenge myself
-* It had minimal setup versus Javascript when using the AWS SDK
-* It's quick and easy to pick up
-* It looks cleaner
+- I hadn't used it before, I wanted to challenge myself
+- It had minimal setup versus Javascript when using the AWS SDK
+- It's quick and easy to pick up
+- It looks cleaner
 
 I used Terraform as the IAC as that's what I had the most familiarity with.
 
@@ -168,11 +186,25 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 }
 ```
 
+#### Pairing
+
+In the beginning of this project there were two other tickets of the same nature for Azure and GCP, I paired with another apprentice to research on how we thought we could implement this for our respective cloud platforms or find some information where somebody has implemented this previously.
+
+Other times when I would hit a blocker I would pair with a more senior engineer, when this was the case I would *navigate* through the problem I was facing, giving a detailed explanation of what I had tried, where I thought it was going wrong. This allowed for quick debugging, and a valuable learning experience.
+I really appreciated when the answer wasn't handed to me on a platter, so that I could take this new information and do some research into what could be the problem. I received this feedback on my pairing:
+
+![Pairing feedback](./images/auto-tagger-pairing-feedback.png)
+*(s13)*
+
 ### Conclusion
 
 [:arrow_up: Table of Contents](#table-of-contents)
 
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
-I learned some basic use of Python and deepened my knowledge on Terraform and AWS.
-This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
+I learned some basic use of Python and deepened my knowledge on Terraform and AWS.This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
+
+I demoed this project to some of the heads Credera's AWS platform, the auto-tagger function I developed was used in the demo prepared for the audit stage of the AWS Security Competency".
+
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
+
+*()*
