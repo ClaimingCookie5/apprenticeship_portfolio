@@ -50,9 +50,9 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 There are two positions that an DevOps engineer can fill at Credera, client work and bench work.
 
-Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. A demo is held every two weeks for stake holders to view the progress made.
+Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
 
-Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete.
+Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete. Work is assigned by interest, if there is something that you find interesting, you are free to pick up that work.
 
 I have done bench work and at the moment I'm on client.
 
@@ -190,11 +190,11 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 
 In the beginning of this project there were two other tickets of the same nature for Azure and GCP, I paired with another apprentice to research on how we thought we could implement this for our respective cloud platforms or find some information where somebody has implemented this previously.
 
-Other times when I would hit a blocker I would pair with a more senior engineer, when this was the case I would *navigate* through the problem I was facing, giving a detailed explanation of what I had tried, where I thought it was going wrong. This allowed for quick debugging, and a valuable learning experience.
+Other times when I would hit a blocker I would instant message, email, or call a more senior engineer to set up a time to do some pairing, when this was the case I would *navigate* through the problem I was facing, giving a detailed explanation of what I had tried, where I thought it was going wrong. This allowed for quick debugging, and a valuable learning experience.*(K19, K20)*
 I really appreciated when the answer wasn't handed to me on a platter, so that I could take this new information and do some research into what could be the problem. I received this feedback on my pairing:
 
 ![Pairing feedback](./images/auto-tagger-pairing-feedback.png)
-*(s13)*
+*(S13)*
 
 ### Conclusion
 
@@ -204,7 +204,7 @@ I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 
 I demoed this project to some of the heads Credera's AWS platform, the auto-tagger function I developed was used in the demo prepared for the audit stage of the AWS Security Competency".
+*(S1, S4)*
 
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
-
-*()*
+*(S4)*
