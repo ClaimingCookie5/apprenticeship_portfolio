@@ -203,7 +203,7 @@ I really appreciated when the answer wasn't handed to me on a platter, so that I
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 
-I demoed this project to some of the heads Credera's AWS platform, the auto-tagger function I developed was used in the demo prepared for the audit stage of the AWS Security Competency".
+I demoed this project to some of the heads of Credera's AWS platform. The auto-tagger function I developed was used in a demo prepared for the audit stage of the AWS Security Competency.
 *(S1, S4)*
 
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
