@@ -11,6 +11,7 @@
     - [My Role](#my-role)
   - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
   - [Table of Tickets](#table-of-tickets)
+  - [Onboarding](#onboarding)
   - [Ticket 1](#ticket-1)
     - [Project Background](#project-background)
     - [Ticket Background](#ticket-background)
@@ -62,7 +63,7 @@ I have done bench work and at the moment I'm on client.
 
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
 |:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
-| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | | | | |
+| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | N/A | Completed compliance training that involved learning about the GDPR | | [Onboarding](#onboarding) |
 | K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. | | | | |
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
 | K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
@@ -92,6 +93,14 @@ I have done bench work and at the moment I'm on client.
 | Ticket number | Ticket |
 |:-:|--------------------|
 | <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
+
+## Onboarding
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+As part of onboarding I am required to do internal training. This training happens once a year, and once for onboarding to bring new joiners up to speed. Part of the training covers what the GDPR and our responsibility to manage data ethically and give us an understanding of it's implications on the wider society. The training makes it clear on how to handle data, eg. personal data, giving clear definitive answers of what would be a breach of the GDPR and how to protect individuals from privacy and data breaches. Failing to comply with the regulation can have serious consequences which can result in fines of up to €20 million or 4% of global annual turnover, whichever is higher.
+
+The GDPR impacts many areas of Credera, for me these areas are engineering and development/operations *(DevOps)*. It's important for me to be aware of the restrictions, and have a clear understanding of where my personal data is stored, transmitted, or accessed, to ensure compliance with the GDPR.
 
 ## Ticket 1
 
