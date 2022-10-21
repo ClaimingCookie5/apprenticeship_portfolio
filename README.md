@@ -102,6 +102,7 @@ I have done bench work and at the moment I'm on client.
 As part of onboarding I am required to do internal training. This training happens once a year, and once for onboarding to bring new joiners up to speed. Part of the training covers what the GDPR and our responsibility to manage data ethically and give us an understanding of it's implications on the wider society. The training makes it clear on how to handle data, eg. personal data, giving clear definitive answers of what would be a breach of the GDPR and how to protect individuals from privacy and data breaches. Failing to comply with the regulation can have serious consequences which can result in fines of up to €20 million or 4% of global annual turnover, whichever is higher.
 
 The GDPR impacts many areas of Credera, for me these areas are engineering and development/operations *(DevOps)*. It's important for me to be aware of the restrictions, and have a clear understanding of where my personal data is stored, transmitted, or accessed, to ensure compliance with the GDPR.
+*(K3)*
 
 ## Ticket 1
 
