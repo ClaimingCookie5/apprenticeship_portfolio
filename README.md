@@ -27,7 +27,7 @@
 
 | Release | Date |
 |---------| -----|
-| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/realease_0) | 09/09/2022 |
+| [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_0) | 09/09/2022 |
 
 ## Introduction
 
