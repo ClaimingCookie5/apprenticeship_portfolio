@@ -104,6 +104,11 @@ As part of onboarding I am required to do internal training. This training happe
 The GDPR impacts many areas of Credera, for me these areas are engineering and development/operations *(DevOps)*. It's important for me to be aware of the restrictions, and have a clear understanding of where my personal data is stored, transmitted, or accessed, to ensure compliance with the GDPR.
 *(K3)*
 
+In order to ensure the tool we are implementing deploys systems that are GDPR compliant, we build in security at all levels. I have worked on setting up pipeline steps to run ansible hardening scripts to ensure VM images have minimal attack surfaces. This ansible role contains scripts that eliminate or reduces known risks to the OS image we are creating.
+I have used Trivy scan in an automated way to scan containers for known vulnerabilities allowing myself and the team to make informed decisions, determining whether the risk associated with the import is acceptable or not. These vulnerabilities are recorded and checked reviewed periodically to see if the risks are acceptable or not. I have also created functional tests and implemented them as part of the pipelines to ensure we are not introducing vulnerabilities into our logic and are properly handling errors to avoid data exposure, there is a powershell module that I use to talk to an endpoint, for whatever reason the password for the connection string is not setup to use SecureString. This means that if there's an error, sensitive data is output into the logs. To avoid this I setup some error handling so as not to expose the sensitive information.
+
+All of this ensures that our deployed systems meet the integrity and confidentiality aspect of GDPR regulations and that the client is able to meet their accountability obligations.
+
 ## Ticket 1
 
 [:arrow_up: Table of Contents](#table-of-contents)
