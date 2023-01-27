@@ -23,6 +23,12 @@
     - [Problems and Solutions](#problems-and-solutions)
       - [Pairing](#pairing)
     - [Conclusion](#conclusion)
+  - [Ticket 2](#ticket-2)
+    - [Ticket Background](#ticket-background-1)
+    - [Learning and Research](#learning-and-research-1)
+    - [Completing the Ticket](#completing-the-ticket-1)
+    - [Problems and Solutions](#problems-and-solutions-1)
+    - [Conclusion](#conclusion-1)
 
 ## Version Control
 
@@ -93,7 +99,8 @@ I have done bench work and at the moment I'm on client.
 
 | Ticket number | Ticket |
 |:-:|--------------------|
-| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
+| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) ||
+| 2 | ![Deploy new dev environment](./images/deploy_new_environment_ticket.png) |
 
 ## Onboarding
 
@@ -236,3 +243,31 @@ I demoed this project to some of the heads of Credera's AWS platform, these peop
 
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
 *(S4)*
+
+## Ticket 2
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+### Ticket Background
+
+Some high priority work was assigned to the team I am in. It involved deploying a new development environment in VMware and setting up some basic infrastructure.
+
+### Learning and Research
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+I used the VMware Terraform documentation to find out if what was being asked could be automated.
+
+### Completing the Ticket
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+I created a repository which had some terraform and and a pipeline to provision the infrastructure that was required.
+
+### Problems and Solutions
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+Initially the ticket requirements were that I was to build a new environment inside of an existing organisation. I requested a valid IP range to create network infrastructure. While in a discussion about how many IPs would be needed, it was discovered that I was creating a new environment and that that was not approved. I had to go back to the person who raised the request and work out what I could do to deliver what was needed.
+
+### Conclusion
