@@ -11,6 +11,7 @@
     - [My Role](#my-role)
   - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
   - [Table of Tickets](#table-of-tickets)
+  - [Onboarding](#onboarding)
   - [Ticket 1](#ticket-1)
     - [Project Background](#project-background)
     - [Ticket Background](#ticket-background)
@@ -28,6 +29,7 @@
 | Release | Date |
 |---------| -----|
 | [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_0) | 09/09/2022 |
+| [release_1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_1) | 21/10/2022 |
 
 ## Introduction
 
@@ -62,7 +64,7 @@ I have done bench work and at the moment I'm on client.
 
 | KSB Number | KSB Description | Which ticket(s) | Overview of how I met it | Ticket Date | Document Link |
 |:----------:|-----------------|:---------------:|--------------------------|-------------|---------------|
-| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | | | | |
+| K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | N/A | Completed compliance training that involved learning about the GDPR | | [Onboarding](#onboarding) |
 | K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. | | | | |
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
 | K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
@@ -92,6 +94,20 @@ I have done bench work and at the moment I'm on client.
 | Ticket number | Ticket |
 |:-:|--------------------|
 | <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
+
+## Onboarding
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+As part of onboarding I am required to do internal training. This training happens once a year, and once for onboarding to bring new joiners up to speed. Part of the training covers what the GDPR and our responsibility to manage data ethically and give us an understanding of it's implications on the wider society. The training makes it clear on how to handle data, eg. personal data, giving clear definitive answers of what would be a breach of the GDPR and how to protect individuals from privacy and data breaches. Failing to comply with the regulation can have serious consequences which can result in fines of up to €20 million or 4% of global annual turnover, whichever is higher.
+
+The GDPR impacts many areas of Credera, for me these areas are engineering and development/operations *(DevOps)*. It's important for me to be aware of the restrictions, and have a clear understanding of where my personal data is stored, transmitted, or accessed, to ensure compliance with the GDPR.
+*(K3)*
+
+In order to ensure the tool we are implementing deploys systems that are GDPR compliant, we build in security at all levels. I have worked on setting up pipeline steps to run ansible hardening scripts to ensure custom VM image templates have minimal attack surfaces. This ansible role contains scripts that eliminate or reduces known risks to the custom OS images templates we are creating.
+I have used Trivy scan in an automated way to scan containers for known vulnerabilities allowing myself and the team to make informed decisions, determining whether the risk associated with the import is acceptable or not. These vulnerabilities are recorded and checked reviewed periodically to see if the risks are acceptable or not. I have also created functional tests and implemented them as part of the pipelines to ensure we are not introducing vulnerabilities into our logic and are properly handling errors to avoid data exposure, there is a powershell module that I use to talk to an endpoint, for whatever reason the password for the connection string is not setup to use SecureString. This means that if there's an error, sensitive data is output into the logs. To avoid this I setup some error handling so as not to expose the sensitive information.
+
+All of this ensures that our deployed systems meet the integrity and confidentiality aspect of GDPR regulations and that the client is able to meet their accountability obligations.
 
 ## Ticket 1
 
@@ -166,7 +182,7 @@ I used Terraform as the IAC as that's what I had the most familiarity with.
 
 [:arrow_up: Table of Contents](#table-of-contents)
 
-One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket. On cretaion, S3 bucket would overwrite any tags it was already provided. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
+One of the problems I faced when trying to tag S3 buckets, was that Boto3 didn't have a way to cleanly add tags to the bucket. On creation, S3 bucket would overwrite any tags it was already provided. I got around this by retrieving the tags that were attached to the bucket on creation and adding them to the list of tags that I wanted to provide.
 
 Another issue I faced when expanding this project to incorporate more than just S3 buckets was, not all AWS resource take tags in the same way, which made this frustrating when I wanted to follow best practices and not repeat code, eg. S3 buckets, the accepted tags are formatted like so:
 
@@ -188,9 +204,21 @@ but if I tried to do the same with an EKS cluster, all it would accept is the fo
 
 #### Pairing
 
+There are a few types of pairing styles:
+
+- Ping-Pong Pairing:
+The first person writes a failing test and the second person gets it to pass. Then the second person writes a failing test and the first person gets it to path. Back and forth, back and forth. Kind of like a game of ping pong. *I am yet to come across a scenario where I would implement this style of pairing.*
+- Driver-Navigator:
+The driver focuses on tactical concerns related to the mechanics of the activity like typing, navigating between files, and basic implementation. The navigator, on the other hand, looks at broader concerns and checks for mistakes. Does this method fit with the architecture? Are we potentially duplicating an implementation from elsewhere? Are we in a blind alley? *I am most familiar with this style of pairing and use it on a daily basis.*
+- Backseat Navigator:
+Like driver-navigator, the driver sits with their hands on the keyboard and executes the mechanics of typing and such. But unlike driver-navigator, their partner dictates tactical instructions. This might mean that they tell the driver when to create a method or open a new file. They might also tell the driver what to name a test or a variable. *I have used this method a few times when trying to debug a problem with a senior engineer, or when I'm helping a fellow apprentice overcome a problem they are facing.*
+- Tour Guide:
+The driver does the strategic and tactical thinking, along with the typing.  As they does this, they tell you (tourist), about what they're doing. The tourist rarely intervenes. *I use this style when onboarding someone onto the team and trying to get them up to speed on what we're doing, and vice versa, when I'm being onboarded to a new team.*
+*(K20)*
+
 In the beginning of this project there were two other tickets of the same nature for Azure and GCP, I paired with another apprentice to research on how we thought we could implement this for our respective cloud platforms or find some information where somebody has implemented this previously.
 
-Other times when I would hit a blocker I would instant message, email, or call a more senior engineer to set up a time to do some pairing, when this was the case I would *navigate* through the problem I was facing, giving a detailed explanation of what I had tried, where I thought it was going wrong. This allowed for quick debugging, and a valuable learning experience.*(K19, K20)*
+Other times when I would hit a blocker I would instant message, email, or call a more senior engineer to set up a time to do some pairing, when this was the case I would walk the them through the problem I was facing, giving a detailed explanation of what I had tried, where I thought it was going wrong. This allowed for quick debugging, and a valuable learning experience. For this situation I used the normal Driver-Navigator style of pairing, where I drove and the more experienced engineer navigated, checking to see where I had gone wrong and the implementation I'm applying is correct. I went with the Driver-Navigator approach as I have a more hands on role over the Tour Guide or Backseat navigator where I would have little to no input on what is being implemented. *(S13, K19)*
 I really appreciated when the answer wasn't handed to me on a platter, so that I could take this new information and do some research into what could be the problem. I received this feedback on my pairing:
 
 ![Pairing feedback](./images/auto-tagger-pairing-feedback.png)
@@ -203,7 +231,7 @@ I really appreciated when the answer wasn't handed to me on a platter, so that I
 I was able to implement auto tagging for 5 different resources, S3 buckets, EC2 instances, ECK clusters, ECS clusters, and Glue registries. I made it easy to implement the logic for other resources by documenting thoroughly the approach one should take.
 I learned some basic use of Python and deepened my knowledge on Terraform and AWS.This has helped by allowing Credera to pinpoint when and who created a resource, and track how much these resources are costing the company.
 
-I demoed this project to some of the heads of Credera's AWS platform. The auto-tagger function I developed was used in a demo prepared for the audit stage of the AWS Security Competency.
+I demoed this project to some of the heads of Credera's AWS platform, these people have in-depth technical knowledge on the AWS platform. Because it was a technically competent audience I provided an architecture diagram on how it works and a live run through of what is happening in the background. I helped to prepare for Credera to apply for the AWS Security Competency - I developed the auto-tagger function that was used as evidence to support the case, I ran the presenter through the function and supported in the preparation of the demo that was given to AWS. As a result of this work, alongside similar work performed by my colleagues, we achieved the AWS Security Competency.
 *(S1, S4)*
 
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
