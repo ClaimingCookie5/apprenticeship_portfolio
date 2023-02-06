@@ -270,4 +270,8 @@ I created a repository which had some terraform and and a pipeline to provision 
 
 Initially the ticket requirements were that I was to build a new environment inside of an existing organisation. I requested a valid IP range to create network infrastructure. While in a discussion about how many IPs would be needed, it was discovered that I was creating a new environment and that that was not approved. I had to go back to the person who raised the request and work out what I could do to deliver what was needed.
 
+Given the new set of requirements, there wasn't much work to do, I just had to rejig the existing repositories and tear down some infrastructure. I setup a demonstration for their Project manager and Developers to handover the work done so that their team could continue development. Quite early into the demonstration it was discovered that what I was handing over and what they were expecting were vastly different.
+
 ### Conclusion
+
+In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the
