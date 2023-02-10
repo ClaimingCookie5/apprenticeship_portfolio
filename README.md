@@ -120,6 +120,8 @@ All of this ensures that our deployed systems meet the integrity and confidentia
 
 [:arrow_up: Table of Contents](#table-of-contents)
 
+![Auto tagging ticket](./images/auto_tagging_ticket.png)
+
 ### Project Background
 
 When joining Credera, depending on client engagements at the time, generally you'll be assigned to the bench to help create/improve internal products, this is only while you're not on a client (external party). While on the bench, I didn't have the opportunity to do much as part of a team.
@@ -248,6 +250,8 @@ I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagg
 
 [:arrow_up: Table of Contents](#table-of-contents)
 
+![Deploy new dev environment](./images/deploy_new_environment_ticket.png)
+
 ### Ticket Background
 
 Some high priority work was assigned to the team I am in. It involved deploying a new development environment in VMware and setting up some basic infrastructure.
@@ -274,4 +278,7 @@ Given the new set of requirements, there wasn't much work to do, I just had to r
 
 ### Conclusion
 
-In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the
+In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the team to integrate their work with our orchestration pipeline and deploy their infrastructure as a service. I have set up a twice weekly meeting to answer any question they may have around integrating with our orchestration pipeline. I demoed how to use the pipeline to develop a service and have drawn up a diagram of the workflow the pipeline follows to their team and project manager, here's a picture of the diagram:
+
+![Development work flow diagram](images/orchestration_pipeline_development_flow.png)
+*I have removed some references to maintain privacy.*
