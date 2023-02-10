@@ -1,6 +1,10 @@
 # Apprenticeship Portfolio
 
+<details>
+
+<summary>
 ## Table of Contents
+</summary>
 
 - [Apprenticeship Portfolio](#apprenticeship-portfolio)
   - [Table of Contents](#table-of-contents)
@@ -29,6 +33,8 @@
     - [Completing the Ticket](#completing-the-ticket-1)
     - [Problems and Solutions](#problems-and-solutions-1)
     - [Conclusion](#conclusion-1)
+
+</details>
 
 ## Version Control
 
