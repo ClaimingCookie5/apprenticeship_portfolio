@@ -83,7 +83,7 @@ I have done bench work and at the moment I'm on client.
 | S1 | Communicate credibly with technical and non-technical people at all levels, using a range of methods; e.g. ‘Show and Tell’ and ‘Demonstrations’. | 1 | Every Monday and Wednesday I would have a standup to talk through blockers/progress. I have demonstrated to multiple people how the product works, the use cases/benefits of it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S2 | Work within different organisational cultures with both internal and external parties. | | | | |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
+| S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | 2 | The ticket initially set out waht we had to do, upon delivering there was a realisation that the work produced didn't quite meet expectations. I had to adjust what I did and redeliver. | 10/02/2023 | [Ticket 2](#ticke-image-1) |
 | S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | 1 | Used diagrams to show a high level overview of how projects work. | | [Autotagger Diagram](./images/Autotagger-Diagram.png) |
@@ -100,7 +100,7 @@ I have done bench work and at the moment I'm on client.
 | Ticket number | Ticket |
 |:-:|--------------------|
 | <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) ||
-| 2 | ![Deploy new dev environment](./images/deploy_new_environment_ticket.png) |
+| <a id="ticket-image-2">2</a> | ![Deploy new dev environment](./images/deploy_new_environment_ticket.png) |
 
 ## Onboarding
 
@@ -279,6 +279,7 @@ I created a repository which had some terraform and and a pipeline to provision 
 Initially the ticket requirements were that I was to build a new environment inside of an existing organisation. I requested a valid IP range to create network infrastructure. While in a discussion about how many IPs would be needed, it was discovered that I was creating a new environment and that that was not approved. I had to go back to the person who raised the request and work out what I could do to deliver what was needed.
 
 Given the new set of requirements, there wasn't much work to do, I just had to rejig the existing repositories and tear down some infrastructure. I setup a demonstration for their Project manager and Developers to handover the work done so that their team could continue development. Quite early into the demonstration it was discovered that what I was handing over and what they were expecting were vastly different.
+*(S8)*
 
 ### Conclusion
 
