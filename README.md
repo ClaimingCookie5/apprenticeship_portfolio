@@ -1,12 +1,9 @@
 # Apprenticeship Portfolio
 
 <details>
-<summary><h2>Click for Table of Contents</h2></summary>
-
-## Table of Contents
+<summary><h2><a id="table-of-contents">Table of Contents</a></h2></summary>
 
 - [Apprenticeship Portfolio](#apprenticeship-portfolio)
-  - [Table of Contents](#table-of-contents)
   - [Version Control](#version-control)
   - [Introduction](#introduction)
     - [About Me](#about-me)
