@@ -290,6 +290,6 @@ In the end the ticket was re-worked to fit some new requirements, and instead of
 *I have removed some references to maintain privacy.*
 
 As this is a continual process I sent an email and an invite to a meeting twice a week, and a teams chat to answer any question they may have around integrating with our orchestration pipeline. The team that is integrating with our work is spread across multiple time zones, so the meeting is recorded to adjust for those that may not be able to make it. The Teams chat is a less formal, adhoc, place to ask/answer any questions.
-*(K19)*
+*(K19, S4)*
 
 ![Meeting request](./images/meeting_request.png)
