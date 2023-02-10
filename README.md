@@ -1,7 +1,7 @@
 # Apprenticeship Portfolio
 
 <details>
-<summary>Click for Table of Contents</summary>
+<summary><h2>Click for Table of Contents</h2></summary>
 
 ## Table of Contents
 
