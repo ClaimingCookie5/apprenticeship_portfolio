@@ -278,7 +278,13 @@ Given the new set of requirements, there wasn't much work to do, I just had to r
 
 ### Conclusion
 
-In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the team to integrate their work with our orchestration pipeline and deploy their infrastructure as a service. I have set up a twice weekly meeting to answer any question they may have around integrating with our orchestration pipeline. I demoed how to use the pipeline to develop a service and have drawn up a diagram of the workflow the pipeline follows to their team and project manager, here's a picture of the diagram:
+In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the team to integrate their work with our orchestration pipeline and deploy their infrastructure as a service. I demoed how to use the pipeline to develop a service and have drawn up a diagram of the workflow the pipeline follows to their team and project manager, here's a picture of the diagram:
+*(S1)*
 
 ![Development work flow diagram](images/orchestration_pipeline_development_flow.png)
 *I have removed some references to maintain privacy.*
+
+As this is a continual process I sent an email and an invite to a meeting twice a week, and a teams chat to answer any question they may have around integrating with our orchestration pipeline. The team that is integrating with our work is spread across multiple time zones, so the meeting is recorded to adjust for those that may not be able to make it. The Teams chat is a less formal, adhoc, place to ask/answer any questions.
+*(K19)*
+
+![Meeting request](./images/meeting_request.png)
