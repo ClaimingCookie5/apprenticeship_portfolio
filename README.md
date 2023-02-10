@@ -1,10 +1,9 @@
 # Apprenticeship Portfolio
 
 <details>
+<summary>Click for Table of Contents</summary>
 
-<summary>
 ## Table of Contents
-</summary>
 
 - [Apprenticeship Portfolio](#apprenticeship-portfolio)
   - [Table of Contents](#table-of-contents)
