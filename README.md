@@ -1,9 +1,9 @@
 # Apprenticeship Portfolio
 
-## Table of Contents
+<details>
+<summary><h2><a id="table-of-contents">Table of Contents</a></h2></summary>
 
 - [Apprenticeship Portfolio](#apprenticeship-portfolio)
-  - [Table of Contents](#table-of-contents)
   - [Version Control](#version-control)
   - [Introduction](#introduction)
     - [About Me](#about-me)
@@ -23,6 +23,14 @@
     - [Problems and Solutions](#problems-and-solutions)
       - [Pairing](#pairing)
     - [Conclusion](#conclusion)
+  - [Ticket 2](#ticket-2)
+    - [Ticket Background](#ticket-background-1)
+    - [Learning and Research](#learning-and-research-1)
+    - [Completing the Ticket](#completing-the-ticket-1)
+    - [Problems and Solutions](#problems-and-solutions-1)
+    - [Conclusion](#conclusion-1)
+
+</details>
 
 ## Version Control
 
@@ -30,6 +38,7 @@
 |---------| -----|
 | [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_0) | 09/09/2022 |
 | [release_1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_1) | 21/10/2022 |
+| [release_2_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_2) | 03/03/2023 |
 
 ## Introduction
 
@@ -77,7 +86,7 @@ I have done bench work and at the moment I'm on client.
 | S1 | Communicate credibly with technical and non-technical people at all levels, using a range of methods; e.g. ‘Show and Tell’ and ‘Demonstrations’. | 1 | Every Monday and Wednesday I would have a standup to talk through blockers/progress. I have demonstrated to multiple people how the product works, the use cases/benefits of it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S2 | Work within different organisational cultures with both internal and external parties. | | | | |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | | | | |
+| S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | 2 | The ticket initially set out some requirements, upon delivering there was a realisation that the work produced didn't quite meet expectations. I had to adjust what I did and redeliver. | 10/02/2023 | [Ticket 2](#ticket-image-1) |
 | S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | 1 | Used diagrams to show a high level overview of how projects work. | | [Autotagger Diagram](./images/Autotagger-Diagram.png) |
@@ -93,7 +102,8 @@ I have done bench work and at the moment I'm on client.
 
 | Ticket number | Ticket |
 |:-:|--------------------|
-| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
+| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) ||
+| <a id="ticket-image-2">2</a> | ![Deploy new dev environment](./images/deploy_new_environment_ticket.png) |
 
 ## Onboarding
 
@@ -112,6 +122,8 @@ All of this ensures that our deployed systems meet the integrity and confidentia
 ## Ticket 1
 
 [:arrow_up: Table of Contents](#table-of-contents)
+
+![Auto tagging ticket](./images/auto_tagging_ticket.png)
 
 ### Project Background
 
@@ -147,6 +159,7 @@ With this in mind, I converted the diagram into Terraform, adding the missing pa
 #### Trigger Evidence
 
 ![trigger evidence](./images/creation-event.png)
+
 *screenshot of the creation event of a bucket*
 
 Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
@@ -155,16 +168,19 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 #### Lambda Handler
 
 ![lambda handler](./images/lambda-handler.png)
+
 *screenshot of the Lambda's code*
 
 #### Tagging function
 
 ![bucket tagging](./images/bucket-tagging.png)
+
 *screenshot of the code used to tag buckets*
 
 Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
 
 ![tagged bucket](./images/tagged-bucket.png)
+
 *evidence of a bucket having tags applied*
 
 Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda making it easy to contribute to and update.
@@ -236,3 +252,47 @@ I demoed this project to some of the heads of Credera's AWS platform, these peop
 
 I wrote a step-by-step **[blog](https://medium.com/credera-engineering/auto-tagging-with-aws-and-terraform-246affbf6797)** on how to implement it, as I couldn't find anything in the beginning and thought people could benefit from it. This allowed me to share what I had learned and hopefully help somebody in the future and potentially widen Credera's reach.
 *(S4)*
+
+## Ticket 2
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+![Deploy new dev environment](./images/deploy_new_environment_ticket.png)
+
+### Ticket Background
+
+Some high priority work was assigned to the team I am in. It involved deploying a new development environment in VMware and setting up some basic infrastructure.
+
+### Learning and Research
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+I used the VMware Terraform documentation to find out if what was being asked could be automated.
+
+### Completing the Ticket
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+I created a repository which had some terraform and and a pipeline to provision the infrastructure that was required.
+
+### Problems and Solutions
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+Initially the ticket requirements were that I was to build a new environment inside of an existing organisation. I requested a valid IP range to create network infrastructure. While in a discussion about how many IPs would be needed, it was discovered that I was creating a new environment and that that was not approved. I had to go back to the person who raised the request and work out what I could do to deliver what was needed.
+
+Given the new set of requirements, there wasn't much work to do, I just had to rejig the existing repositories and tear down some infrastructure. I setup a demonstration for their Project manager and Developers to handover the work done so that their team could continue development. Quite early into the demonstration it was discovered that what I was handing over and what they were expecting were vastly different.
+*(S8)*
+
+### Conclusion
+
+In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the team to integrate their work with our orchestration pipeline and deploy their infrastructure as a service. I demoed how to use the pipeline to develop a service and have drawn up a diagram of the workflow the pipeline follows to their team and project manager, here's a picture of the diagram:
+*(S1)*
+
+![Development work flow diagram](images/orchestration_pipeline_development_flow.png)
+*I have removed some references to maintain privacy.*
+
+As this is a continual process I sent an email and an invite to a meeting twice a week, and a teams chat to answer any question they may have around integrating with our orchestration pipeline. The team that is integrating with our work is spread across multiple time zones, so the meeting is recorded to adjust for those that may not be able to make it. The Teams chat is a less formal, adhoc, place to ask/answer any questions.
+*(K19, S4)*
+
+![Meeting request](./images/meeting_request.png)
