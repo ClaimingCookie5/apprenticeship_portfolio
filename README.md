@@ -38,6 +38,7 @@
 |---------| -----|
 | [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_0) | 09/09/2022 |
 | [release_1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_1) | 21/10/2022 |
+| [release_2_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_2) | 03/03/2023 |
 
 ## Introduction
 
