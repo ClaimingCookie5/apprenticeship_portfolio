@@ -9,6 +9,7 @@
     - [About Me](#about-me)
     - [About Credera](#about-credera)
     - [My Role](#my-role)
+    - [Working in Teams](#working-in-teams)
   - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
   - [Table of Tickets](#table-of-tickets)
   - [Onboarding](#onboarding)
@@ -66,6 +67,22 @@ Client work is fulfilling the clients needs based on what the Credera consultant
 Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete. Work is assigned by interest, if there is something that you find interesting, you are free to pick up that work.
 
 I have done bench work and at the moment I'm on client.
+
+### Working in Teams
+
+While on bench work it's generally solo work.
+
+I have been on client now close to a year, *I think*. Over this time I've worked in multiple teams with various structures, all teams following the agile workflow:
+
+- First team: This was mostly client team members, including a product owner, team lead, and three engineers.
+- Second team: There was about a 50/50 split between external, *not client*, and Credera engineers, included in this was product owner, team lead, and about ten engineers.
+- Third team: This was all Credera engineers doing client work, including one team lead that would cover the product owners role, doing a lot of liaising between client and our team, and about seven engineers of various levels.
+- Fourth team: This team is the one I am currently in, having one team lead and three engineers, with one of the three floating between this team and the previous team I was in.
+
+Having been in quite a few teams it's interesting to see the differences between work cultures. Client culture is like night and day between Credera, there seems to be a fear from client engineers owning up to mistakes for fear of losing ones job. At Credera we are encouraged to come forward if we make/spot a mistake as this leads to quick resolutions and a learning opportunity.
+*(S2, K18, S8)*
+
+
 
 ## Knowledge, Skills and Behaviours
 
