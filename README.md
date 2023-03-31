@@ -30,6 +30,7 @@
     - [Completing the Ticket](#completing-the-ticket-1)
     - [Problems and Solutions](#problems-and-solutions-1)
     - [Conclusion](#conclusion-1)
+  - [Training Request](#training-request)
 
 </details>
 
@@ -82,8 +83,6 @@ I have been on client now close to a year, *I think*. Over this time I've worked
 Having been in quite a few teams it's interesting to see the differences between work cultures. Client culture is like night and day between Credera, there seems to be a fear from client engineers owning up to mistakes for fear of losing ones job. At Credera we are encouraged to come forward if we make/spot a mistake as this leads to quick resolutions and a learning opportunity.
 *(S2, K18, S8)*
 
-
-
 ## Knowledge, Skills and Behaviours
 
 [:arrow_up: Table of Contents](#table-of-contents)
@@ -93,7 +92,7 @@ Having been in quite a few teams it's interesting to see the differences between
 | K3 | How to use data ethically and the implications for wider society, with respect to the use of data, automation and artificial intelligence within the context of relevant data protection policy and legislation. | N/A | Completed compliance training that involved learning about the GDPR | | [Onboarding](#onboarding) |
 | K6 | A range of problem solving techniques appropriate to the task at hand, such as affinity mapping, impact maps, plan-do-check-act/Deming. | | | | |
 | K9 | Different organisational cultures, the development frameworks utilised and how they can both complement each other and introduce constraints on delivery. | | | | |
-| K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | | | |
+| K18 | Roles within a multidisciplinary team and the interfaces with other areas of an organisation. | | Working with internal and external parties I've been exposed to multiple different roles that make up a tech team. | | [Working In Teams](#working-in-teams) |
 | K19 | Different methods of communication and choosing the appropriate one - e.g. face-to-face (synchronous, high bandwidth), instant messaging, email (asynchronous, low bandwidth), visualisations vs. words. | 1 | I had to communicate with a wide range of people, mostly technical in nature. I used emails for more serious matters or to coordinate a time/date to demo my product, instant messaging/face-to-face ***(virtual)*** when asking for help, and lots of visuals when demoing. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | K20 | Pair/mob programming techniques and when to use each technique. | 1 | When I paired on this ticket I would "drive" and the senior would "navigate", only pairing once I had exhausted all my other options. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
 | K22 | How their occupation fits into the wider digital landscape and any current or future regulatory requirements. | | | | |
@@ -101,11 +100,11 @@ Having been in quite a few teams it's interesting to see the differences between
 | K24 | The difference between Software-as-a-Service (SaaS) v bespoke v enterprise tooling and how to make an informed choice that suits each use case. | | | | |
 | K25 | Maintain an awareness of cloud certification requirements. | | | | |
 | S1 | Communicate credibly with technical and non-technical people at all levels, using a range of methods; e.g. ‘Show and Tell’ and ‘Demonstrations’. | 1 | Every Monday and Wednesday I would have a standup to talk through blockers/progress. I have demonstrated to multiple people how the product works, the use cases/benefits of it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
-| S2 | Work within different organisational cultures with both internal and external parties. | | | | |
+| S2 | Work within different organisational cultures with both internal and external parties. | | Being on client I've had to work with multiple external teams. It has given me an insight on how to work with different parties. | | [Working In Teams](#working-in-teams) |
 | S4 | Initiate and facilitate knowledge sharing and technical collaboration. | 1 | I have held multiple demos and written a blog on how/when to use the product, and also demonstrated/documented how to contribute to it. | 10/01/2022 | [Ticket 1](#ticket-image-1) |
 | S8 | Work in agile, multi-disciplinary delivery teams, taking a flexible, collaborative and pragmatic approach to delivering tasks. | 2 | The ticket initially set out some requirements, upon delivering there was a realisation that the work produced didn't quite meet expectations. I had to adjust what I did and redeliver. | 10/02/2023 | [Ticket 2](#ticket-image-1) |
 | S13 | Engage in productive pair/mob programming. | 1 | I would pair with a senior when I hit a blocker, explaining in detail what I had done and the problem I was running into, allowing them to "navigate" to the solution or showing me where to look for a potential solution. | 10/01/2022 | Pairing feedback from an engineer, Mathew Ball ![feedback around pairing](./images/auto-tagger-pairing-feedback.png) |
-| S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | | | |
+| S16 | Invest in continuous learning, both your own development and others, ensuring learning activities dovetail with changing job requirements. Keep up with cutting edge. | | I ran a workshop for some new joiners on how to use ansible. | | [Workshop training](#training-request) |
 | S21 | Application of lightweight modelling techniques, such as whiteboarding, in order to gain consensus as a team on evolving architecture. | 1 | Used diagrams to show a high level overview of how projects work. | | [Autotagger Diagram](./images/Autotagger-Diagram.png) |
 | B1 | Exhibits enthusiasm, openness and an aptitude for working as part of a collaborative community; e.g. sharing best practice, pairing with team members, learning from others and engaging in peer review practices. | | Behavioral feedback from my appraiser, Stephanie Quinn ![behavioral feedback](./images/behavioral-feedback.png) | | |
 | B2 | Invests time and effort in their own development, recognising that technology evolves at a rapid rate. | | | | |
@@ -176,7 +175,6 @@ With this in mind, I converted the diagram into Terraform, adding the missing pa
 #### Trigger Evidence
 
 ![trigger evidence](./images/creation-event.png)
-
 *screenshot of the creation event of a bucket*
 
 Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
@@ -185,19 +183,16 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 #### Lambda Handler
 
 ![lambda handler](./images/lambda-handler.png)
-
 *screenshot of the Lambda's code*
 
 #### Tagging function
 
 ![bucket tagging](./images/bucket-tagging.png)
-
 *screenshot of the code used to tag buckets*
 
 Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
 
 ![tagged bucket](./images/tagged-bucket.png)
-
 *evidence of a bucket having tags applied*
 
 Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda making it easy to contribute to and update.
@@ -303,6 +298,8 @@ Given the new set of requirements, there wasn't much work to do, I just had to r
 
 ### Conclusion
 
+[:arrow_up: Table of Contents](#table-of-contents)
+
 In the end the ticket was re-worked to fit some new requirements, and instead of developing the solution for them, we were given the task of helping the team to integrate their work with our orchestration pipeline and deploy their infrastructure as a service. I demoed how to use the pipeline to develop a service and have drawn up a diagram of the workflow the pipeline follows to their team and project manager, here's a picture of the diagram:
 *(S1)*
 
@@ -313,3 +310,16 @@ As this is a continual process I sent an email and an invite to a meeting twice 
 *(K19, S4)*
 
 ![Meeting request](./images/meeting_request.png)
+
+## Training Request
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+I was requested at short notice to do an Ansible workshop for some new joiners. For this I created a tool using docker to spin up containers that would represent VMs in a live environment. It allows users to get quick feedback in seconds/minutes on ansible playbooks instead of having to run potentially lengthy pipelines.
+
+The workshop was a little lack luster as it was my first time running a one and I struggled to get people engaged. Overall it was a useful experience and I was provided with some constructive feedback:
+
+![Workshop feedback 1](./images/workshop_feedback_1.png)
+
+![Workshop feedback 2](./images/workshop_feedback_2.png)
+*()*
