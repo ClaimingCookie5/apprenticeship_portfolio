@@ -175,6 +175,7 @@ With this in mind, I converted the diagram into Terraform, adding the missing pa
 #### Trigger Evidence
 
 ![trigger evidence](./images/creation-event.png)
+
 *screenshot of the creation event of a bucket*
 
 Once I had evidence that the creation events were triggering the Lambda, I could then implement the logic that would provide the created resources with new tags.
@@ -183,16 +184,19 @@ Using the AWS SDK for python, *Boto3*, I could easily hit the AWS API and create
 #### Lambda Handler
 
 ![lambda handler](./images/lambda-handler.png)
+
 *screenshot of the Lambda's code*
 
 #### Tagging function
 
 ![bucket tagging](./images/bucket-tagging.png)
+
 *screenshot of the code used to tag buckets*
 
 Once deployed, create an S3 bucket and check your newly created bucket, you'll see that there are now tags attached to it:
 
 ![tagged bucket](./images/tagged-bucket.png)
+
 *evidence of a bucket having tags applied*
 
 Once I could tag a bucket, targeting other resources was very easy, it was just a matter of changing the Boto3 resource I needed. To do this, only three Terraform resources are needed and the code for the lambda making it easy to contribute to and update.
