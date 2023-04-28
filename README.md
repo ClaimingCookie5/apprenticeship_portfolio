@@ -31,6 +31,7 @@
     - [Problems and Solutions](#problems-and-solutions-1)
     - [Conclusion](#conclusion-1)
   - [Training Request](#training-request)
+  - [Peer Reviews](#peer-reviews)
 
 </details>
 
@@ -328,3 +329,27 @@ The workshop was a little lack luster as it was my first time running a one and 
 
 ![Workshop feedback 2](./images/workshop_feedback_2.png)
 *(S16)*
+
+## Peer Reviews
+
+[:arrow_up: Table of Contents](#table-of-contents)
+
+As part of the development process at Credera and on Client, we are required to peer review code that is going to be merged into the main branch of a repository. This allows for a learning experience from others and potentially imparting what I have learned so far from others as an apprentice.
+
+Off the top of my head one example of learning something from another. I had a bash script that would allow users to have access to remote ansible roles through an azure devops pipeline:
+
+```bash
+#!/bin/bash
+
+set -euo pipefail
+
+git config --global http.https://some_url_to_a_remote_ansible_role.extraheader "Authorization: Bearer ${ACCESS_TOKEN}"
+git config --global http.https://some_url_to_a_remote_ansible_role.extraheader "Authorization: Bearer ${ACCESS_TOKEN}"
+git config --global http.https://some_url_to_a_remote_ansible_role.extraheader "Authorization: Bearer ${ACCESS_TOKEN}"
+```
+
+Because I was told it was good practice to have `set -euo pipefail` in a bash script, I had never broken down what this did so for a while I would just copy and paste this into the top of whatever script I was creating without considering what the `pipefail` actually did. I was told if you don't pipe anything in a script, `pipefail` is not needed. It was a good reminder to understand what it is that I am writing, luckily in this scenario it is to do with how errors are handled.
+
+One PR I raised involved editing some existing code that I had previously tested and merged into main. When it came to raising the PR and testing the changes with the most recent changes made to main, I found a problem with some code that somebody had merged into the main branch. Without blaming anybody I raised a ticket detailing the issue and reverted the PR that had breaking changes as singling out the person who added the code wouldn't solve the issue.
+
+Part of the reason for not singling out the person is, as a chef I worked in many environments where blaming people was the norm, it's not a good feeling being blamed for something, regardless of who's at fault, it doesn't help solve the issue. If peoples minds are clouded by the mistake they made, they are more likely to make more mistakes. This particular issue went through the same process as all other PRs, meaning we as a team needed to be more thorough in our reviews to help produce high quality solutions.
