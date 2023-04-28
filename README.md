@@ -42,7 +42,8 @@
 | [release_0](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_0) | 09/09/2022 |
 | [release_1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_1) | 21/10/2022 |
 | [release_2_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_2) | 03/03/2023 |
-| [release_3](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3) | |
+| [release_3_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3) | 28/04/2023 |
+| [release_3_f2](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3_f2) | TBC |
 
 ## Introduction
 
