@@ -10,6 +10,7 @@
     - [About Credera](#about-credera)
     - [My Role](#my-role)
     - [Working in Teams](#working-in-teams)
+    - [How My Occupation Fits Into The Wider Digital Landscape](#how-my-occupation-fits-into-the-wider-digital-landscape)
   - [Knowledge, Skills and Behaviours](#knowledge-skills-and-behaviours)
   - [Table of Tickets](#table-of-tickets)
   - [Onboarding](#onboarding)
@@ -32,6 +33,7 @@
     - [Conclusion](#conclusion-1)
   - [Training Request](#training-request)
   - [Peer Reviews](#peer-reviews)
+  - [Continuous Learning](#continuous-learning)
 
 </details>
 
@@ -64,9 +66,9 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 ### My Role
 
-There are two positions that an DevOps engineer can fill at Credera, client work and bench work.
+There are two positions that a DevOps engineer can fill at Credera, client work and bench work.
 
-Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
+Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Sprint planning is held every two weeks to determine priority of work, the meeting consists of building (or adding to) an affinity map to get a general idea of what we need, and then build tickets off the back of that. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
 
 Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete. Work is assigned by interest, if there is something that you find interesting, you are free to pick up that work.
 
@@ -83,8 +85,19 @@ I have been on client now close to a year, *I think*. Over this time I've worked
 - Third team: This was all Credera engineers doing client work, including one team lead that would cover the product owners role, doing a lot of liaising between client and our team, and about seven engineers of various levels.
 - Fourth team: This team is the one I am currently in, having one team lead and three engineers, with one of the three floating between this team and the previous team I was in.
 
-Having been in quite a few teams it's interesting to see the differences between work cultures. Client culture is like night and day between Credera, there seems to be a fear from client engineers owning up to mistakes for fear of losing ones job. At Credera we are encouraged to come forward if we make/spot a mistake as this leads to quick resolutions and a learning opportunity.
-*(S2, K18, S8)*
+Having been in quite a few teams, it's interesting to see the differences between work cultures. Client culture is like night and day between Credera, there seems to be a fear from client engineers owning up to mistakes for fear of losing ones job. At Credera we are encouraged to come forward if we make/spot a mistake as this leads to quick resolutions and a learning opportunity. At Credera we follow an Agile process and try to show Clients the benefits of this approach where they might be using a Waterfall approach, or they are trying to use an Agile approach but are not using the methodologies correctly, e.g. Client would hold a sprint planning session and it could go off course and become another stand up. Agile specific methods of working get diluted often, so I try to impart what I have learned so far at Credera.
+*(K9, S2, K18, S8)*
+
+
+### How My Occupation Fits Into The Wider Digital Landscape
+
+Working on Client we have to adhere to many regulatory requirements. In complying with the Payment Card Industry Data Security Standard **(PCI DSS)**, I handled the installation of FireEye and Tanium onto base VM templates, and built automated tests that check whether VMs built off of the templates are in compliance with PCI DSS.
+
+[Here](https://experience.trellix.com/noelhollistx/home/using-fireeye-endpoint-for-pci-and-hipaahitech-compliance#:~:text=HOW%20FIREEYE%20ENDPOINT,PCI%20DSS%20COMPLIANCE) is a link to how FireEye helps to facilitate compliance with PCI DSS.
+
+*Tanium solves nearly all the IT infrastructure related requirements, including 100% of the repetitive tasks like monthly patching, weekly file integrity monitoring and quarterly vulnerability scanning, etc.* - Tanium
+
+*(K22)*
 
 ## Knowledge, Skills and Behaviours
 
@@ -309,6 +322,8 @@ In the end the ticket was re-worked to fit some new requirements, and instead of
 ![Development work flow diagram](images/orchestration_pipeline_development_flow.png)
 *I have removed some references to maintain privacy.*
 
+At the time of creating this diagram I went back and forward with a couple of people to gain a consensus on how the orchestration pipeline actually worked, and how services can be easily integrated. *(S21)*
+
 As this is a continual process I sent an email and an invite to a meeting twice a week, and a teams chat to answer any question they may have around integrating with our orchestration pipeline. The team that is integrating with our work is spread across multiple time zones, so the meeting is recorded to adjust for those that may not be able to make it. The Teams chat is a less formal, adhoc, place to ask/answer any questions.
 *(K19, S4)*
 
@@ -350,3 +365,9 @@ Because I was told it was good practice to have `set -euo pipefail` in a bash sc
 One PR I raised involved editing some existing code that I had previously tested and merged into main. When it came to raising the PR and testing the changes with the most recent changes made to main, I found a problem with some code that somebody had merged into the main branch. Without blaming anybody I raised a ticket detailing the issue and reverted the PR that had breaking changes as singling out the person who added the code wouldn't solve the issue.
 
 Part of the reason for not singling out the person is, as a chef I worked in many environments where blaming people was the norm, it's not a good feeling being blamed for something, regardless of who's at fault, it doesn't help solve the issue. If peoples minds are clouded by the mistake they made, they are more likely to make more mistakes. This particular issue went through the same process as all other PRs, meaning we as a team needed to be more thorough in our reviews to help produce high quality solutions.
+
+## Continuous Learning
+
+As I'm continually moved around teams and exposed to different technology, I have to do a lot of crash course workshops via A Cloud Guru (ACG). I was moved to a team that was using Rancher to build Kubernetes clusters, very cool haha, and having minimal to no experience with Kubernetes I was recommended the Kubernetes Deep Dive on ACG, realising how cool kubernetes is I decided to prepare for the Certified Kubernetes Administrator exam to gain a certificate using ACG to help me prepare. As part of investing in my own continuous learning, I've created an environment where I can run ansible on a docker container to learn more in depth about what ansible is capable of, in my own time. I would like to get to a point where I can spin up multiple containers to simulate a cluster of VMs in alive environment, each with it's own role.
+*(S16, K25)*
+e
