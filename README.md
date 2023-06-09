@@ -34,6 +34,7 @@
   - [Training Request](#training-request)
   - [Peer Reviews](#peer-reviews)
   - [Continuous Learning](#continuous-learning)
+  - [SAAS vs Bespoke vs Enterprise](#saas-vs-bespoke-vs-enterprise)
 
 </details>
 
@@ -68,7 +69,8 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 There are two positions that a DevOps engineer can fill at Credera, client work and bench work.
 
-Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Sprint planning is held every two weeks to determine priority of work, the meeting consists of building (or adding to) an affinity map to get a general idea of what we need, and then build tickets off the back of that. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
+Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Sprint planning is held every two weeks to determine priority of work, the meeting consists of building (or adding to) an affinity or impact map to get a general idea of what we need, and then build tickets off the back of that. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
+*(K6)*
 
 Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete. Work is assigned by interest, if there is something that you find interesting, you are free to pick up that work.
 
@@ -134,7 +136,7 @@ Working on Client we have to adhere to many regulatory requirements. In complyin
 
 | Ticket number | Ticket |
 |:-:|--------------------|
-| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) ||
+| <a id="ticket-image-1">1</a> | ![Auto tagging ticket](./images/auto_tagging_ticket.png) |
 | <a id="ticket-image-2">2</a> | ![Deploy new dev environment](./images/deploy_new_environment_ticket.png) |
 
 ## Onboarding
@@ -370,4 +372,11 @@ Part of the reason for not singling out the person is, as a chef I worked in man
 
 As I'm continually moved around teams and exposed to different technology, I have to do a lot of crash course workshops via A Cloud Guru (ACG). I was moved to a team that was using Rancher to build Kubernetes clusters, very cool haha, and having minimal to no experience with Kubernetes I was recommended the Kubernetes Deep Dive on ACG, realising how cool kubernetes is I decided to prepare for the Certified Kubernetes Administrator exam to gain a certificate using ACG to help me prepare. As part of investing in my own continuous learning, I've created an environment where I can run ansible on a docker container to learn more in depth about what ansible is capable of, in my own time. I would like to get to a point where I can spin up multiple containers to simulate a cluster of VMs in alive environment, each with it's own role.
 *(S16, K25)*
-e
+
+## SAAS vs Bespoke vs Enterprise
+
+| SAAS | Bespoke | Enterprise |
+|:----:|:-------:|:----------:|
+| Software-as-a-Service (SaaS), is a cloud based software delivery model that allows end users to access software applications over the internet. With a SaaS model, the software is hosted on remote servers, maintained and updated by the service provider, and made available to customers via web browsers, mobile apps and APIs | Software created to meet an individual customer's needs. It is the logical opposite of an SAAS products. | Enterprise software, or enterprise application software, is computer software used by organizations rather than individual users. |
+
+On Client we are building a private cloud platform using VMware and NSX-T, where we are building bespoke products along with configuring SAAS products, and Enterprise tools, such as MongoDB and Dynatrace for the clients needs.
