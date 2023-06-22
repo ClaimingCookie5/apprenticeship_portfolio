@@ -379,4 +379,13 @@ As I'm continually moved around teams and exposed to different technology, I hav
 |:----:|:-------:|:----------:|
 | Software-as-a-Service (SaaS), is a cloud based software delivery model that allows end users to access software applications over the internet. With a SaaS model, the software is hosted on remote servers, maintained and updated by the service provider, and made available to customers via web browsers, mobile apps and APIs | Software created to meet an individual customer's needs. It is the logical opposite of an SAAS products. | Enterprise software, or enterprise application software, is computer software used by organizations rather than individual users. |
 
+Careful consideration has to be made before coming to a decision on which style of product meets your needs. SaaS Products should work straight of the box and can be used to solve a lot of general problems companies have, but may not provide a solution to a niche problem or allow the level of control a Bespoke product would. A big factor of choosing what route to go when trying to solve a solution is money, without it you go bust. A few things companies take into consideration when choosing how to solve a problem are:
+
+- Functionality:
+  - Does this SaaS product actually serve your purpose, or is it overkill?
+- Help and Support:
+  - With a Saas Product you're going to be able to get support from the vendor, *if you've paid for it*, whereas with a Bespoke solution the only help you're going to get is the documentation that was hopefully written as it was being built.
+- Time:
+  - How long is it going to take to build this Bespoke solution? How long will it take for us to integrate this Saas solution into what we already have? You will need to consider whether you can afford to spend the time it will take to build a Bespoke solution or do you need something now like a SaaS product to solve the problem?
+
 On Client we are building a private cloud platform using VMware and NSX-T, where we are building bespoke products along with configuring SAAS products, and Enterprise tools, such as MongoDB and Dynatrace for the clients needs.
