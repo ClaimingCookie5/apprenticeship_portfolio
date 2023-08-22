@@ -46,7 +46,8 @@
 | [release_1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_1) | 21/10/2022 |
 | [release_2_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_2) | 03/03/2023 |
 | [release_3_f1](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3) | 28/04/2023 |
-| [release_3_f2](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3_f2) | TBC |
+| [release_3_f2](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3_f2) | 22/06/2023 |
+| [release_3_f3](https://github.com/ClaimingCookie5/apprenticeship_portfolio/tree/release_3_f4) | TBC |
 
 ## Introduction
 
@@ -69,7 +70,7 @@ Credera is a consulting firm focused on strategy, innovation, data, and technolo
 
 There are two positions that a DevOps engineer can fill at Credera, client work and bench work.
 
-Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Sprint planning is held every two weeks to determine priority of work, the meeting consists of building (or adding to) an affinity or impact map to get a general idea of what we need, and then build tickets off the back of that. Work is assigned based on priority by the team lead. A demo is held every two weeks for stake holders to view the progress made.
+Client work is fulfilling the clients needs based on what the Credera consultants have assessed the clients needs are, while on client I work as part of a team in an agile manner. Standups are held everyday, where team members provide updates on progress, issues blocking them, and whether work that has been undertaken is priority or not. Sprint planning is held every two weeks to determine priority of work, the meeting consists of building (or adding to) an affinity map to get a general idea of what we need. We use an affinity map to brainstorm ideas as it's not as structured as an impact map, which we use to filter the ideas from the affinity map, and define features that give us the most value for the coming sprint/quarter. A demo is held every two weeks for stake holders to view the progress made.
 *(K6)*
 
 Bench work is less formal, it is work between client work. Credera will find internal areas that need improving. Bench work can be as part of a small team, but generally solo work. Standups are held every Monday and Wednesday, demos are held once the ticket is complete. Work is assigned by interest, if there is something that you find interesting, you are free to pick up that work.
@@ -378,5 +379,14 @@ As I'm continually moved around teams and exposed to different technology, I hav
 | SAAS | Bespoke | Enterprise |
 |:----:|:-------:|:----------:|
 | Software-as-a-Service (SaaS), is a cloud based software delivery model that allows end users to access software applications over the internet. With a SaaS model, the software is hosted on remote servers, maintained and updated by the service provider, and made available to customers via web browsers, mobile apps and APIs | Software created to meet an individual customer's needs. It is the logical opposite of an SAAS products. | Enterprise software, or enterprise application software, is computer software used by organizations rather than individual users. |
+
+Careful consideration has to be made before coming to a decision on which style of product meets your needs. SaaS Products should work straight of the box and can be used to solve a lot of general problems companies have, but may not provide a solution to a niche problem or allow the level of control a Bespoke product would. A big factor of choosing what route to go when trying to solve a solution is money, without it you go bust. A few things companies take into consideration when choosing how to solve a problem are:
+
+- Functionality:
+  - Does this SaaS product actually serve your purpose, or is it overkill?
+- Help and Support:
+  - With a Saas Product you're going to be able to get support from the vendor, *if you've paid for it*, whereas with a Bespoke solution the only help you're going to get is the documentation that was hopefully written as it was being built.
+- Time:
+  - How long is it going to take to build this Bespoke solution? How long will it take for us to integrate this Saas solution into what we already have? You will need to consider whether you can afford to spend the time it will take to build a Bespoke solution or do you need something now like a SaaS product to solve the problem?
 
 On Client we are building a private cloud platform using VMware and NSX-T, where we are building bespoke products along with configuring SAAS products, and Enterprise tools, such as MongoDB and Dynatrace for the clients needs.
